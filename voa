@@ -1,0 +1,81 @@
+#!/bin/bash
+filename=$1
+if [ -f $1 ]
+then
+	echo "File name is $filename."
+else
+	echo "File $filename does not exist!"
+	exit 1
+fi
+input=$filename
+filename_withoutext=${filename%.*}
+#len=900 && a=40k && v=130k && fps=25  # 15min
+len=930 && a=40k && v=120k && fps=25  # 15min
+n=1
+speed=1.3
+delay=0.6
+ss=0
+S1="陈光诚"
+#S1="文昭谈古论今"
+#S1="蝴蝶视点"
+#S1="美国之音 时事大家谈"
+#S1="姜维平读报点评"
+#S1="经世济民夏业良"
+#S1="纵论天下陈破空"
+#S1="建民论推墙98"
+#S1="点点今天事"
+#S1="艾未未工作室"
+S2="自媒体开播两周年"
+#S2="吴东海曝习近平 第1集"
+S22=""
+S3="2017.12.04"
+date="2017.12.05"
+
+box="box=1:boxcolor=black@0.7:boxborderw=5"
+line1="drawtext=text='$S1':$box:fontcolor=white:fontsize=40:enable='between(t,0,2):y=20:x=(w-tw)/2'"
+line2="drawtext=text='$S2':$box:fontcolor=white:fontsize=45:enable='between(t,0,3):y=110:x=(w-tw)/2'"
+line22="drawtext=text='$S22':$box:fontcolor=white:fontsize=45:enable='between(t,0,3):y=175:x=(w-tw)/2'"
+line3="drawtext=text='$S3':$box:fontcolor=white:fontsize=40:enable='between(t,0,4):y=260:x=(w-tw)/2'"
+line4="drawtext=text='ffmpeg 加速${speed} 音${a} 视${v} ${fps}fps $date':$box:fontcolor=white:fontsize=10:enable='between(t,0,10000):y=h-th-3:x=w-tw-3'"
+
+if [ $speed != 1 ]
+then
+	input=${filename_withoutext}_speed$speed.mp4
+	if [ ! -f $input ]; then
+	  ./speed.sh $1 $speed
+	fi
+fi
+
+if [ $delay != 0 ]
+then
+	ffmpeg -y -i $input -itsoffset $delay -i $input -map 0:v -map 1:a -vcodec copy -acodec copy ${filename_withoutext}_speed${speed}_delay${delay}.mp4
+	input=${filename_withoutext}_speed${speed}_delay${delay}.mp4
+fi
+
+if [ $n -gt 1 ]
+then
+	ffmpeg -y -i $input -ss $ss -b:a ${a} -b:v ${v} -r ${fps} -strict -2 -f segment -segment_time $len -reset_timestamps 1 -map 0 ${filename_withoutext}_%d.mp4
+
+	for i in `seq 1 ${n}`;
+	do
+	  let j=${i}-1
+	  if [ ! -f ${filename_withoutext}_${j}.mp4 ]; then
+	    break
+	  fi
+
+	  ffmpeg -y -analyzeduration 60000 -i ${filename_withoutext}_${j}.mp4 -vf \
+		  "$line1,$line2\
+		  ,drawtext=text='$i/$n':$box:fontcolor=white:fontsize=50:enable='between(t,0,3):y=180:x=(w-tw)/2'\
+		  ,$line3,$line4" \
+	    -ac 1 -b:a ${a} -strict -2 -b:v ${v} -r ${fps} /home/public_share/${filename_withoutext}_${speed}_$a$v${fps}__${i}_of_${n}.mp4
+
+#	  rm -f ${filename_withoutext}_${j}.mp4
+
+	done
+else
+	  ffmpeg -y -ss $ss -i $input -vf \
+		  "$line1,$line2, $line22\
+		  ,$line3,$line4" \
+	    -ac 1 -b:a ${a} -strict -2 -b:v ${v} -r ${fps} /home/public_share/${filename_withoutext}_${speed}_$a$v${fps}.mp4
+
+fi
