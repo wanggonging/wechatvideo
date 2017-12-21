@@ -10,11 +10,15 @@ fi
 input=$filename
 filename_withoutext=${filename%.*}
 
-fps=25
-speed=1.3
-ss=0
-n=1
-S1="三代帝师王沪宁 三段婚姻无爱情 《建民论推墙113》 2017.12.20"
+#n=1&&ss=0&&S1="文在寅访华丧权辱国 受尽屈辱 因传播郭文贵爆料 被捕判刑者激增 《今日热评》12.20"
+#n=3&&ss=25&&S1="又是減稅又是 廢除網絡中立 川普到底靠不靠譜？ 《明鏡專訪》12.20"
+#n=2&&ss=0&&S1="陳破空文昭对谈 拆毛邓题词不拆江题词 习近平有何盘算 新唐人电视 2017.12.19"
+#n=3&&ss=8&&S1="著名人權律師劉士輝 為計生受害者打官司 《計劃生育回頭看》第6期 2017.12.20"
+#n=1&&ss=0&&S1="【环球直击】 12月20日完整版 新唐人电视 2017.12.20"
+#n=1&&ss=0&&S1="黄琦病危 下月移送法院审讯 新唐人电视 2017.12.20"
+#n=1&&ss=0&&S1="沧县天然气爆炸伤人 民众市府抗议 新唐人电视 2017.12.20"
+#n=1 && ss=0 && S1="這三個月不會打朝鮮 《點點今天事》 2017年12月20日"
+#n=4 && ss=41 && S1="蝴蝶三人行 盲流子曝张欣平语音 揭露其欺骗网友行径 2017.12.19"
 
 datefull=`TZ="UTC-8" date "+%y%m%d%H%M%S"`
 DURATION_HMS=$(ffmpeg -i "$input" 2>&1 | grep Duration | cut -f 4 -d ' ')
@@ -27,19 +31,26 @@ LENGTH=`echo "($DURATION + $n - 1)/$n" | bc -l`
 len=`printf %.0f $LENGTH`
 VRATE=`echo "20*1024*8 / $len - 50" | bc -l`
 v=`printf %.0f $VRATE`
+if [ $v -gt 300 ]
+then
+	v=300
+fi
+
 tech="ffmpeg 加速${speed} 音40k 视${v}k ${fps}fps $datefull"
-echo "$D / $n = $len | $S1 | $S2 | $S22 | $S3 | vrate=${v}k | $tech"
+
+if [ $ss != 0 ]
+then
+	new=${filename_withoutext}_ss.mkv
+	ffmpeg -y -i $input -vcodec copy -acodec copy -ss $ss $new
+	input=$new
+fi
+
+echo "SS=$ss $D / $n = $len | $S1 | $tech"
 if [ ! "a$2" == "a-q" ]
 then
 	read -n1 -r -p "Press any key to continue..." key
 fi
 
-if [ $ss != 0 ]
-then
-	new=${filename_withoutext}_ss.mp4
-	ffmpeg -y -i $input -vcodec copy -acodec copy -ss $ss $new
-	input=$new
-fi
 
 if [ $n -gt 1 ]
 then
