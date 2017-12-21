@@ -79,7 +79,7 @@ then
 	       	-b:v ${v}k -r ${fps} \
 	    	/home/public_share/${datefull}_${filename_withoutext}_${speed}_$a$v${fps}_${i}_of_${n}.mp4
 
-#		rm -f ${filename_withoutext}_${j}.mp4
+		rm -f ${filename_withoutext}_${j}.mp4
 	done
 else
 	sed -e "s/AAAAAAA/$S1/g; s/CCCCCCC/$tech/g" template.ass > $filename_withoutext.ass
@@ -90,13 +90,6 @@ else
        	-filter_complex "[0:v]setpts=PTS/${speed}[v1];[v1]ass=$filename_withoutext.ass[v];[0:a]highpass=f=200,lowpass=f=3000[af];[af]atempo=${speed}[a]" \
        	-map "[v]" -map "[a]" \
     	/home/public_share/${datefull}_${filename_withoutext}_${speed}_$a$v${fps}.mp4
-
-
-#	${filename_withoutext}_speed$speed.mp4
-
-#	ffmpeg -y \
-#	-i ${filename_withoutext}_speed$speed.mp4 \
-#	-vf ass=$filename_withoutext.ass \
-#	-acodec copy \
-#       	-b:v ${v}k -r ${fps} \
 fi
+rm -f $filename_withoutext.ass
+rm -f ${filename_withoutext}_ss.*
