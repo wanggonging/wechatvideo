@@ -1,4 +1,34 @@
 #!/bin/bash
+#fps=25 speed=1 n=1 ss=0 S1="" ./d
+#fps=25 speed=1.3 n=1 ss=0 S1="美国人权法案 追责中共高官第一人 《建民论推墙116》 2017.12.22" ./d wjm1222 https://www.youtube.com/watch?v=LM8RoONjMvQ
+#fps=25 speed=1 n=1 ss=0 S1="超重磅 习近平经济思想出台 这是什么信号？ 2017.12.22" ./d jsz1222 https://www.youtube.com/watch?v=ObnepsRAqqI
+#fps=25 speed=1 n=1 ss=0 S1="黑龙江民代幼教师 大规模上访省教育厅 2017.12.22" ./d ntd1222hlj https://www.youtube.com/watch?v=t9Bx7lLnops
+#fps=25 speed=1.1 n=2 ss=0 S1="【环球直击】 12月22日完整版 广西男子_翻墙VPN" ./d ntd1222 https://www.youtube.com/watch?v=jrlUO_oVu-k
+#fps=25 speed=1 n=2 ss=0 S1="雷人路55 怎么样才能 让一个国家变好 2017年12月22日" ./d laolei1222 https://www.youtube.com/watch?v=HoP_2HCrI1Y
+#fps=25 speed=1 n=4 ss=23 S1="著名政治犯王炳章 獄中最新動態 《明鏡專訪》 2017.12.22" ./d mj1222wbz https://www.youtube.com/watch?v=Cf6C6f_GYP4
+#fps=25 speed=1 n=4 ss=0 S1="美国之音中文网 焦点对话 高考恢复四十年 2017年12月22日" ./d voa1222 https://www.youtube.com/watch?v=McCPhkxn1K8
+#fps=25 speed=1 n=1 ss=0 S1="时间飞逝 文贵先生宠物狗snow 成长全记录 2017.12.21" ./d xg1221 https://www.youtube.com/watch?v=pAYDCCXEFJc
+#fps=25 speed=1 n=1 ss=0 S1="美国紧急应对 全球人权侵害与腐败 中共官员登黑名单 川普行政令_侵犯人权者 2017.12.21" ./d ntd1221gy https://www.youtube.com/watch?v=TbpUETNEpxk
+#fps=25 speed=1.5 n=2 ss=0 S1="建平建言 民主转型方略探讨（十一） 转型前提 共同意志 2017.12.21" ./d ljp1221 https://www.youtube.com/watch?v=6axBfqSIhSk
+#fps=25 speed=1.1 n=1 ss=47 S1="唐柏桥 谈川普总统 今日签署的人权法案 2017.12.21" ./d tbq1221 https://www.youtube.com/watch?v=NZLUbFZUKfc
+#fps=25 speed=1 n=1 ss=0 S1="雕塑家陈维明 《牢笼中的刘晓波》 2017.11.24" ./d lxb https://www.youtube.com/watch?v=7wQ_CppwcBs
+#fps=25 speed=1 n=2 ss=0 S1="美國制裁中共惡官 聯合國決議和台灣抓人 《點點今天事》 2017年12月21日" ./d dd1221 https://www.youtube.com/watch?v=wElPhhFhKps
+#fps=25 speed=1 n=1 ss=0 S1="論天下陳破空 孙政才失宠 秘闻惊呆众生 2017.12.21" ./d cpk1221 https://www.youtube.com/watch?v=V8da5wxFmmU
+#fps=25 speed=1 n=2 ss=0 S1="《更强大的力量》 (三)丹麦和智利-1 中文版" ./d nv-c1 https://www.youtube.com/watch?v=FL9a3O7Rg0Y
+#fps=25 speed=1 n=2 ss=0 S1="《更强大的力量》 (三)丹麦和智利-2 中文版" ./d nv-c2 https://www.youtube.com/watch?v=Vx4rpb1NJtg
+#fps=25 speed=1 n=1 ss=0 S1="《更强大的力量》 (三)丹麦和智利-3 中文版" ./d nv-c3 https://www.youtube.com/watch?v=M-Eu3CIqXXo
+#fps=25 speed=1 n=2 ss=0 S1="《更强大的力量》 (二)波兰和南非-1 中文版" ./d nv-b1 https://www.youtube.com/watch?v=jN6Cjc-1sSg
+#fps=25 speed=1 n=2 ss=0 S1="《更强大的力量》 (二)波兰和南非-2 中文版" ./d nv-b2 https://www.youtube.com/watch?v=dzR4mg1vAhc
+#fps=25 speed=1 n=1 ss=0 S1="《更强大的力量》 (二)波兰和南非-3 中文版" ./d nv-b3 https://www.youtube.com/watch?v=4z-6h5VlwMA
+#fps=25 speed=1 n=2 ss=0 S1="《更强大的力量》 (一)印度和纳什维尔-1 中文版" ./d nv-a1 https://www.youtube.com/watch?v=Pt-Ko8lHQuM
+#fps=25 speed=1 n=2 ss=0 S1="《更强大的力量》 (一)印度和纳什维尔-2 中文版" ./d nv-a2 https://www.youtube.com/watch?v=dfX9ZAhnChM
+#fps=25 speed=1 n=1 ss=0 S1="《更强大的力量》 (一)印度和纳什维尔-3 中文版 " ./d nv-a3  https://www.youtube.com/watch?v=GkouoNKswNk
+#fps=25 speed=1 n=4 ss=0 S1="“六四”屠城 到底死傷了多少人？ 《明鏡專訪》 2017年12月21" ./d mj122164 https://www.youtube.com/watch?v=ecnJeuPWBP8
+#fps=25 speed=1 n=3 ss=0 S1="川普签署行政命令 高岩成为中国被制裁 第一高官 《新闻时时报》 2017年12月21日" ./d mj1221news https://www.youtube.com/watch?v=37zAz4m6NkM
+#fps=25 speed=1.3 n=1 ss=0 S1="中美启动另类战国模式 中国大出天下的两个方向 20171221第276期" ./d wz1221 https://www.youtube.com/watch?v=TEINVEwPMHo
+#fps=25 speed=1.3 n=2 ss=0 S1="姜维平 从温家宝母亲患病谈起 12月21日读报点评" ./d jwp1221 https://www.youtube.com/watch?v=gQ_-NnQNh6U
+#fps=25 speed=1 n=4 ss=0 S1="BBC 1993年 记录片(中译版) 中国最后一个皇帝 毛泽东 " ./d maobbc1993 https://www.youtube.com/watch?v=_TdY9oxV3jk
+#"毛澤東的大饑荒 2017年11月17日" https://www.youtube.com/watch?v=Lotnpq0Usgc
 #fps=25 speed=1 n=4 ss=0 S1="解密时刻 大饥荒 天灾还是人祸？ 2012年11月12日" ./d djh1 https://www.youtube.com/watch?v=KQGXZc_6ei4
 #fps=25 speed=1 n=4 ss=0 S1="解密时刻 大饥荒 死人不是数字游戏 2012年12月10日" ./d djh2 https://www.youtube.com/watch?v=GW-8Eax1LIY
 #fps=25 speed=1 n=4 ss=0 S1="解密时刻 大饥荒 谁骗谁？ 2012年12月20日" ./d djh3 https://www.youtube.com/watch?v=tGzZeaIeSBE
