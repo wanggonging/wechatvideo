@@ -38,6 +38,13 @@ fi
 
 tech="ffmpeg 加速${speed} 音40k 视${v}k ${fps}fps $datefull"
 
+if [ -f sub/${filename_withoutext}.ass ]
+then
+	new=${filename_withoutext}_sub.mkv
+	ffmpeg -y -i $input -vf ass=sub/${filename_withoutext}.ass -acodec copy $new
+	input=$new
+fi
+
 if [ $ss != 0 ]
 then
 	new=${filename_withoutext}_ss.mkv

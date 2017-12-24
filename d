@@ -7,7 +7,16 @@ fi
 
 if [ -f $1.mp4 ]; then
  ./t $1.mp4 -q
-else
+ exit
+fi
+
+if [ -f $1.mkv ]; then
  ./t $1.mkv -q
+ exit
+fi
+
+if [ -f $1.webm ]; then
+ ./t $1.webm -q
+ exit
 fi
 
