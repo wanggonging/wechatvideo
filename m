@@ -1,7 +1,21 @@
 #!/bin/bash
 #fps=25 speed=1 n=1 ss=0 S1="" ./d
+fps=25 speed=1 n=1 ss=0 S1="推动党内民主 变成野心家 李源潮被不被抓 都沒大意思 《点点今天事》1225" ./d dd1224 https://www.youtube.com/watch?v=0Kubj26Wvzw
+#fps=25 speed=1 n=1 ss=0 S1="终极手段？ 时隔55年 中央再派“工作队”进乡村 2017.12.25" ./d jsz1225 https://www.youtube.com/watch?v=GG3CGSVvCuk
+#fps=25 speed=1 n=3 ss=0 S1="大师兄 《2017 年终感言》2017 12 25" ./d dsx1225 https://www.youtube.com/watch?v=0sheW6wqbuU
+#fps=25 speed=1 n=2 ss=0 S1="秦永敏冲撞党禁 共产党应当包容 12月25日读报点评" ./d jwp1225 https://www.youtube.com/watch?v=Xp2VykdKH5s
+#fps=25 speed=1 n=2 ss=0 S1="2017-12-23 郭文貴精華版 郭聲琨曾慶紅 海航集團販賣軍火 攪亂阿拉伯世界" ./d gwg1223 https://www.youtube.com/watch?v=NuV66pixyP8
+#fps=25 speed=1 n=4 ss=0 S1="时事大家谈 完整版 2017年12月25日" ./d voa1225 https://www.youtube.com/watch?v=HlnRid35CEY
+#fps=25 speed=1.1 n=2 ss=0 S1="宁折不弯风范永存 赵紫阳 【中共总理系列三】 《建民论推墙119》 2017.12.25" ./d wjm1225 https://www.youtube.com/watch?v=u0iRed5mepE
+#fps=25 speed=1 n=2 ss=0 S1="面对暴力强拆 弱势群体可以这样还击！ 一平说变局15 2017.09.11" ./d yp0911 https://www.youtube.com/watch?v=xJ2vtfnf3Cc
+#fps=25 speed=1 n=1 ss=0 S1="圣诞节谈耶稣 耶稣和孔子为什么 “水火不相容”？ 2017.12.24" ./d jsz1224 https://www.youtube.com/watch?v=yRZV89Uf2RE
+#fps=25 speed=1 n=1 ss=0 S1="小品 外交部大实话 〝圣诞老人〞是反华分子 2017.12.24" ./d xp1224 https://www.youtube.com/watch?v=N9rhBz-EC8A
+#fps=25 speed=1 n=2 ss=0 S1="欢迎李爱杰和 小曼德拉来到美国 12月24日读报点评" ./d jwp1224 https://www.youtube.com/watch?v=s050STNAqSQ
+#fps=25 speed=1 n=1 ss=0 S1="川普认清中国带血GDP 拒绝承认中国 自由贸易市场经济  《建民论推墙118》 2017.12.24" ./d wjm1224 https://www.youtube.com/watch?v=4wiBmgswZ9o
+#fps=25 speed=1 n=1 ss=0 S1="2017-12-24 全世界热爱自由 的人们圣诞快乐！ 季风大哥生日快乐！" ./d hy1224 https://www.youtube.com/watch?v=B1DkzgnSKVU
+#fps=25 speed=1 n=6 ss=0 S1="公视主题之夜 毛泽东的大饥荒 2017年11月17日" ./d mao171117 https://www.youtube.com/watch?v=Lotnpq0Usgc
 #fps=25 speed=1 n=5 ss=0 S1="1986纪录片\\\\N政变 菲律宾二月革命 英文中字" ./d prev1986 https://www.youtube.com/watch?v=BWQHSJJ8OyE
-fps=25 speed=1 n=8 ss=0 S1="1994年PBS纪录片 中国：一个世纪的革命 （二) 1949-1976 中文字幕" ./d pbs2 https://www.youtube.com/watch?v=GMaXSKH2w3c
+#fps=25 speed=1 n=10 ss=0 S1="1994年PBS纪录片 一个世纪的革命 （二) 1949-1976 中文字幕" ./d pbs2 https://www.youtube.com/watch?v=GMaXSKH2w3c
 #fps=25 speed=1.1 n=1 ss=431 S1="资深报人李勇 揭秘毛泽东私人医生 李志绥之死 2017.2" ./d lzs2017 https://www.youtube.com/watch?v=p5xcLhhI1j4
 #fps=25 speed=1.2 n=4 ss=2:25 S1="1993年纪录片 四九年以后的 毛泽东 " ./d maobbc1993 https://www.youtube.com/watch?v=_TdY9oxV3jk
 #fps=25 speed=1 n=3 ss=0 S1="中国热评 美国新国安战略与 中国的“特色”道路 2017.12.22" ./d rfa1222 https://www.youtube.com/watch?v=CJLxiVGyZOM
@@ -52,7 +66,6 @@ fps=25 speed=1 n=8 ss=0 S1="1994年PBS纪录片 中国：一个世纪的革命 �
 #fps=25 speed=1 n=3 ss=0 S1="川普签署行政命令 高岩成为中国被制裁 第一高官 《新闻时时报》 2017年12月21日" ./d mj1221news https://www.youtube.com/watch?v=37zAz4m6NkM
 #fps=25 speed=1.3 n=1 ss=0 S1="中美启动另类战国模式 中国大出天下的两个方向 20171221第276期" ./d wz1221 https://www.youtube.com/watch?v=TEINVEwPMHo
 #fps=25 speed=1.3 n=2 ss=0 S1="姜维平 从温家宝母亲患病谈起 12月21日读报点评" ./d jwp1221 https://www.youtube.com/watch?v=gQ_-NnQNh6U
-#"毛澤東的大饑荒 2017年11月17日" https://www.youtube.com/watch?v=Lotnpq0Usgc
 #fps=25 speed=1 n=4 ss=0 S1="解密时刻 大饥荒 天灾还是人祸？ 2012年11月12日" ./d djh1 https://www.youtube.com/watch?v=KQGXZc_6ei4
 #fps=25 speed=1 n=4 ss=0 S1="解密时刻 大饥荒 死人不是数字游戏 2012年12月10日" ./d djh2 https://www.youtube.com/watch?v=GW-8Eax1LIY
 #fps=25 speed=1 n=4 ss=0 S1="解密时刻 大饥荒 谁骗谁？ 2012年12月20日" ./d djh3 https://www.youtube.com/watch?v=tGzZeaIeSBE

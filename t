@@ -66,7 +66,7 @@ then
 	-i $input -y \
       	-strict -2 -q:a 1.5 -ac 1 -ar 8000 \
        	-b:v ${v}k -r 25 \
-       	-filter_complex "[0:v]setpts=PTS/${speed}[v];[0:a]highpass=f=200,lowpass=f=3000[af];[af]atempo=${speed}[a]" \
+       	-filter_complex "[0:v]setpts=PTS/${speed}[v];[0:a]atempo=${speed}[a]" \
        	-map "[v]" -map "[a]" \
 	-f segment -segment_time $len -reset_timestamps 1 \
        	${filename_withoutext}_%d.mp4
