@@ -1,18 +1,17 @@
 #!/bin/bash
+#笑傲江湖：NV1
+#民复:
 #fps=25 speed=1 n=1 ss=0 S1="" ./d
-fps=25 speed=1 n=1 ss=0 S1="推动党内民主 变成野心家 李源潮被不被抓 都沒大意思 《点点今天事》1225" ./d dd1224 https://www.youtube.com/watch?v=0Kubj26Wvzw
-#fps=25 speed=1 n=1 ss=0 S1="终极手段？ 时隔55年 中央再派“工作队”进乡村 2017.12.25" ./d jsz1225 https://www.youtube.com/watch?v=GG3CGSVvCuk
-#fps=25 speed=1 n=3 ss=0 S1="大师兄 《2017 年终感言》2017 12 25" ./d dsx1225 https://www.youtube.com/watch?v=0sheW6wqbuU
-#fps=25 speed=1 n=2 ss=0 S1="秦永敏冲撞党禁 共产党应当包容 12月25日读报点评" ./d jwp1225 https://www.youtube.com/watch?v=Xp2VykdKH5s
-#fps=25 speed=1 n=2 ss=0 S1="2017-12-23 郭文貴精華版 郭聲琨曾慶紅 海航集團販賣軍火 攪亂阿拉伯世界" ./d gwg1223 https://www.youtube.com/watch?v=NuV66pixyP8
-#fps=25 speed=1 n=4 ss=0 S1="时事大家谈 完整版 2017年12月25日" ./d voa1225 https://www.youtube.com/watch?v=HlnRid35CEY
-#fps=25 speed=1.1 n=2 ss=0 S1="宁折不弯风范永存 赵紫阳 【中共总理系列三】 《建民论推墙119》 2017.12.25" ./d wjm1225 https://www.youtube.com/watch?v=u0iRed5mepE
+#fps=25 speed=1.2 n=4 ss=0 S1="杨建利\\\\N北京如何成了 美国头号对手 《明鏡編輯部》第192期 2017.12.26" ./d yjl1226 https://www.youtube.com/watch?v=m5jsjOOr6CQ
+#fps=25 speed=1 n=1 ss=0 S1="习近平为何仇恨基督 何处安放我们的心灵 2017.12.26 No.102" ./d xm1226 https://www.youtube.com/watch?v=0WrfYBNZJb0
+#fps=25 speed=1.1 n=4 ss=0 S1="中共在意識形態領域 兩個戰場的被動保衛戰 《慢山微語》第17期 2017.12.26" ./d mj1226 https://www.youtube.com/watch?v=swgPCkwHhV8
+#fps=25 speed=1 n=2 ss=0 S1="华国锋（上） 《建民论推墙121》 2017.12.26" ./d wjm1226 https://www.youtube.com/watch?v=1_Ns2aX9xE4
+#fps=25 speed=1 n=1 ss=0 S1="独裁者霸占奥运 美女冠军八年做性奴 圣诞节被审判下地狱 《建民论推墙120》 2017.12.25" ./d wjm12252 https://www.youtube.com/watch?v=YD9STBNmZsU
+#fps=25 speed=1 n=1 ss=0 S1="真想不通 中共发布《党务公开条例》 难道……？ 2017.12.26" ./d jsz1226 https://www.youtube.com/watch?v=5hgDS5js_NA
+#fps=25 speed=1 n=2 ss=0 S1="习近平肚子疼 屠夫被重判 12月26日读报点评" ./d jwp1226 https://www.youtube.com/watch?v=1PEivZJ_hfw
+#fps=25 speed=1 n=4 ss=0 S1="时事大家谈 完整版 2017年12月26日" ./d voa1226 https://www.youtube.com/watch?v=2ySIA_yOqlg
 #fps=25 speed=1 n=2 ss=0 S1="面对暴力强拆 弱势群体可以这样还击！ 一平说变局15 2017.09.11" ./d yp0911 https://www.youtube.com/watch?v=xJ2vtfnf3Cc
-#fps=25 speed=1 n=1 ss=0 S1="圣诞节谈耶稣 耶稣和孔子为什么 “水火不相容”？ 2017.12.24" ./d jsz1224 https://www.youtube.com/watch?v=yRZV89Uf2RE
 #fps=25 speed=1 n=1 ss=0 S1="小品 外交部大实话 〝圣诞老人〞是反华分子 2017.12.24" ./d xp1224 https://www.youtube.com/watch?v=N9rhBz-EC8A
-#fps=25 speed=1 n=2 ss=0 S1="欢迎李爱杰和 小曼德拉来到美国 12月24日读报点评" ./d jwp1224 https://www.youtube.com/watch?v=s050STNAqSQ
-#fps=25 speed=1 n=1 ss=0 S1="川普认清中国带血GDP 拒绝承认中国 自由贸易市场经济  《建民论推墙118》 2017.12.24" ./d wjm1224 https://www.youtube.com/watch?v=4wiBmgswZ9o
-#fps=25 speed=1 n=1 ss=0 S1="2017-12-24 全世界热爱自由 的人们圣诞快乐！ 季风大哥生日快乐！" ./d hy1224 https://www.youtube.com/watch?v=B1DkzgnSKVU
 #fps=25 speed=1 n=6 ss=0 S1="公视主题之夜 毛泽东的大饥荒 2017年11月17日" ./d mao171117 https://www.youtube.com/watch?v=Lotnpq0Usgc
 #fps=25 speed=1 n=5 ss=0 S1="1986纪录片\\\\N政变 菲律宾二月革命 英文中字" ./d prev1986 https://www.youtube.com/watch?v=BWQHSJJ8OyE
 #fps=25 speed=1 n=10 ss=0 S1="1994年PBS纪录片 一个世纪的革命 （二) 1949-1976 中文字幕" ./d pbs2 https://www.youtube.com/watch?v=GMaXSKH2w3c
@@ -38,10 +37,6 @@ fps=25 speed=1 n=1 ss=0 S1="推动党内民主 变成野心家 李源潮被不�
 #fps=25 speed=1.1 n=2 ss=0 S1="2002纪录片 《推翻独裁者》-3 中文版" ./d howto-3 https://www.youtube.com/watch?v=v-NURefGL54
 #fps=25 speed=1 n=8 ss=0 S1="吉恩·夏普纪录片 《怎样开始一场革命？》 中文版" ./d rev https://www.youtube.com/watch?v=xa1oM7QYnIU
 #fps=25 speed=1.2 n=2 ss=0 S1="江泽民借鲁迅诗发牢骚 12月22日读报点评" ./d jwp1222 https://www.youtube.com/watch?v=qybHUk_NFDw
-#fps=25 speed=1 n=4 ss=0 S1="張博樹訪談 我們進入新冷戰時代 《歷史明鏡》第103期 2017.12.22" ./d mj1222zsb https://www.youtube.com/watch?v=OCC1CvSyw3Y
-#fps=25 speed=1.3 n=1 ss=0 S1="美国人权法案 追责中共高官第一人 《建民论推墙116》 2017.12.22" ./d wjm1222 https://www.youtube.com/watch?v=LM8RoONjMvQ
-#fps=25 speed=1 n=1 ss=0 S1="超重磅 习近平经济思想出台 这是什么信号？ 2017.12.22" ./d jsz1222 https://www.youtube.com/watch?v=ObnepsRAqqI
-#fps=25 speed=1 n=1 ss=0 S1="黑龙江民代幼教师 大规模上访省教育厅 2017.12.22" ./d ntd1222hlj https://www.youtube.com/watch?v=t9Bx7lLnops
 #fps=25 speed=1.1 n=2 ss=0 S1="【环球直击】 12月22日完整版 广西男子_翻墙VPN" ./d ntd1222 https://www.youtube.com/watch?v=jrlUO_oVu-k
 #fps=25 speed=1 n=2 ss=0 S1="雷人路55 怎么样才能 让一个国家变好 2017年12月22日" ./d laolei1222 https://www.youtube.com/watch?v=HoP_2HCrI1Y
 #fps=25 speed=1 n=4 ss=23 S1="著名政治犯王炳章 獄中最新動態 《明鏡專訪》 2017.12.22" ./d mj1222wbz https://www.youtube.com/watch?v=Cf6C6f_GYP4
@@ -53,15 +48,15 @@ fps=25 speed=1 n=1 ss=0 S1="推动党内民主 变成野心家 李源潮被不�
 #fps=25 speed=1 n=1 ss=0 S1="雕塑家陈维明 《牢笼中的刘晓波》 2017.11.24" ./d lxb https://www.youtube.com/watch?v=7wQ_CppwcBs
 #fps=25 speed=1 n=2 ss=0 S1="美國制裁中共惡官 聯合國決議和台灣抓人 《點點今天事》 2017年12月21日" ./d dd1221 https://www.youtube.com/watch?v=wElPhhFhKps
 #fps=25 speed=1 n=1 ss=0 S1="論天下陳破空 孙政才失宠 秘闻惊呆众生 2017.12.21" ./d cpk1221 https://www.youtube.com/watch?v=V8da5wxFmmU
-#fps=25 speed=1 n=2 ss=0 S1="《更强大的力量》 (三)丹麦和智利-1 中文版" ./d nv-c1 https://www.youtube.com/watch?v=FL9a3O7Rg0Y
-#fps=25 speed=1 n=2 ss=0 S1="《更强大的力量》 (三)丹麦和智利-2 中文版" ./d nv-c2 https://www.youtube.com/watch?v=Vx4rpb1NJtg
-#fps=25 speed=1 n=1 ss=0 S1="《更强大的力量》 (三)丹麦和智利-3 中文版" ./d nv-c3 https://www.youtube.com/watch?v=M-Eu3CIqXXo
-#fps=25 speed=1 n=2 ss=0 S1="《更强大的力量》 (二)波兰和南非-1 中文版" ./d nv-b1 https://www.youtube.com/watch?v=jN6Cjc-1sSg
-#fps=25 speed=1 n=2 ss=0 S1="《更强大的力量》 (二)波兰和南非-2 中文版" ./d nv-b2 https://www.youtube.com/watch?v=dzR4mg1vAhc
-#fps=25 speed=1 n=1 ss=0 S1="《更强大的力量》 (二)波兰和南非-3 中文版" ./d nv-b3 https://www.youtube.com/watch?v=4z-6h5VlwMA
-#fps=25 speed=1 n=2 ss=0 S1="《更强大的力量》 (一)印度和纳什维尔-1 中文版" ./d nv-a1 https://www.youtube.com/watch?v=Pt-Ko8lHQuM
-#fps=25 speed=1 n=2 ss=0 S1="《更强大的力量》 (一)印度和纳什维尔-2 中文版" ./d nv-a2 https://www.youtube.com/watch?v=dfX9ZAhnChM
-#fps=25 speed=1 n=1 ss=0 S1="《更强大的力量》 (一)印度和纳什维尔-3 中文版 " ./d nv-a3  https://www.youtube.com/watch?v=GkouoNKswNk
+#fps=25 speed=1 n=2 ss=0 S1="《更强大的力量》\\\\N(三) 丹麦和智利-1 中文版" ./d nv-c1 https://www.youtube.com/watch?v=FL9a3O7Rg0Y
+#fps=25 speed=1 n=2 ss=0 S1="《更强大的力量》\\\\N(三) 丹麦和智利-2 中文版" ./d nv-c2 https://www.youtube.com/watch?v=Vx4rpb1NJtg
+#fps=25 speed=1 n=1 ss=0 S1="《更强大的力量》\\\\N(三) 丹麦和智利-3 中文版" ./d nv-c3 https://www.youtube.com/watch?v=M-Eu3CIqXXo
+fps=25 speed=1 n=2 ss=0 S1="《更强大的力量》\\\\N(二) 波兰和南非-1 中文版" ./d nv-b1 https://www.youtube.com/watch?v=jN6Cjc-1sSg
+fps=25 speed=1 n=2 ss=0 S1="《更强大的力量》\\\\N(二) 波兰和南非-2 中文版" ./d nv-b2 https://www.youtube.com/watch?v=dzR4mg1vAhc
+fps=25 speed=1 n=1 ss=0 S1="《更强大的力量》\\\\N(二) 波兰和南非-3 中文版" ./d nv-b3 https://www.youtube.com/watch?v=4z-6h5VlwMA
+fps=25 speed=1 n=2 ss=0 S1="《更强大的力量》\\\\N(一) 印度和纳什维尔1 中文版" ./d nv-a1 https://www.youtube.com/watch?v=Pt-Ko8lHQuM
+fps=25 speed=1 n=2 ss=0 S1="《更强大的力量》\\\\N(一) 印度和纳什维尔2 中文版" ./d nv-a2 https://www.youtube.com/watch?v=dfX9ZAhnChM
+fps=25 speed=1 n=1 ss=0 S1="《更强大的力量》\\\\N(一) 印度和纳什维尔3 中文版 " ./d nv-a3  https://www.youtube.com/watch?v=GkouoNKswNk
 #fps=25 speed=1 n=4 ss=0 S1="“六四”屠城 到底死傷了多少人？ 《明鏡專訪》 2017年12月21" ./d mj122164 https://www.youtube.com/watch?v=ecnJeuPWBP8
 #fps=25 speed=1 n=3 ss=0 S1="川普签署行政命令 高岩成为中国被制裁 第一高官 《新闻时时报》 2017年12月21日" ./d mj1221news https://www.youtube.com/watch?v=37zAz4m6NkM
 #fps=25 speed=1.3 n=1 ss=0 S1="中美启动另类战国模式 中国大出天下的两个方向 20171221第276期" ./d wz1221 https://www.youtube.com/watch?v=TEINVEwPMHo
