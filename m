@@ -1,16 +1,25 @@
 #!/bin/bash
 #民复:
 #fps=25 speed=1 n=1 ss=0 S1="" ./d
-fps=25 speed=1 n=1 ss=0 S1="{\\\\fs(50)}《公民抵抗初探》 普通民众如何采取 公民抵抗 打败强大的统治者? 公民抵抗如何开始? 怎样组织抗议活动?" ./d cv https://www.youtube.com/watch?v=ficH9nLPZiE
+#fps=25 speed=1.1 n=6 ss=0 S1="艾晓明纪录片 《夹边沟祭事》 01-右派农场\\\\N2017" ./d jbg01 https://www.youtube.com/watch?v=M0NN1F_HegY
+#fps=25 speed=1.1 n=6 ss=0 S1="艾晓明纪录片 《夹边沟祭事》 02-劳教青春\\\\N2017" ./d jbg02 https://www.youtube.com/watch?v=2PqLOs_YMWY
+#fps=25 speed=1.1 n=6 ss=0 S1="艾晓明纪录片 《夹边沟祭事》 03-风雪明水\\\\N 2017" ./d jbg03 https://www.youtube.com/watch?v=PJwc8fNEuiY
+#fps=25 speed=1.1 n=6 ss=0 S1="艾晓明纪录片 《夹边沟祭事》 04-抢救人命\\\\N 2017" ./d jbg04 https://www.youtube.com/watch?v=wSPf2ZouudI
+#fps=25 speed=1.1 n=6 ss=0 S1="艾晓明纪录片 《夹边沟祭事》 05-魂归何处\\\\N 2017" ./d jbg05 https://www.youtube.com/watch?v=jCyLJLj3Xyw
+#fps=25 speed=1 n=2 ss=0 S1="12月26日 毛诞辰日就是 人民灾难日 《建民论推墙122》" ./d wjm12262 https://www.youtube.com/watch?v=fAdNXubBjoA
+#fps=25 speed=1 n=1 ss=0 S1="2017-12-26 华涌画了两张画 《加冕日》和 《腊肉毛》 记忆两个人" ./d hy1226 https://www.youtube.com/watch?v=VlaBDvl4F38
+#fps=25 speed=1 n=1 ss=0 S1="2008年10月 刘晓波被捕前 接受香港电台访问 我的坚持" ./d lxb2008 https://www.youtube.com/watch?v=SI8X1cYCuk4
+#fps=25 speed=1 n=1 ss=0 S1="王炳章博士演讲 我们的民族缺少灵魂 这是一场没有灵魂的革命" ./d wbz https://www.youtube.com/watch?v=-pFLVL-eRIA
+#fps=25 speed=1 n=1 ss=0 S1="{\\\\fs(50)}《公民抵抗初探》 普通民众如何采取 公民抵抗 打败强大的统治者? 公民抵抗如何开始? 怎样组织抗议活动?" ./d cv https://www.youtube.com/watch?v=ficH9nLPZiE
 #fps=25 speed=1.5 n=1 ss=0 S1="一种具有核爆潜力 的政治团队 一平说变局05 2017.08.19" ./d yp0819 https://www.youtube.com/watch?v=rlCX9TH7Qbo
 #fps=25 speed=1 n=2 ss=0 S1="面对暴力强拆 弱势群体可以这样还击！ 一平说变局15 2017.09.11" ./d yp0911 https://www.youtube.com/watch?v=xJ2vtfnf3Cc
 #fps=25 speed=1 n=6 ss=0 S1="公视主题之夜 毛泽东的大饥荒 2017年11月17日" ./d mao171117 https://www.youtube.com/watch?v=Lotnpq0Usgc
-#fps=25 speed=1 n=5 ss=0 S1="1986纪录片\\\\N政变 菲律宾二月革命 英文中字" ./d prev1986 https://www.youtube.com/watch?v=BWQHSJJ8OyE
 #fps=25 speed=1 n=10 ss=0 S1="1994年PBS纪录片 一个世纪的革命 （二) 1949-1976 中文字幕" ./d pbs2 https://www.youtube.com/watch?v=GMaXSKH2w3c
 #fps=25 speed=1.1 n=1 ss=431 S1="资深报人李勇 揭秘毛泽东私人医生 李志绥之死 2017.2" ./d lzs2017 https://www.youtube.com/watch?v=p5xcLhhI1j4
 #fps=25 speed=1.2 n=4 ss=2:25 S1="1993年纪录片 四九年以后的 毛泽东 " ./d maobbc1993 https://www.youtube.com/watch?v=_TdY9oxV3jk
 #fps=25 speed=1 n=2 ss=0 S1="史上首次颜色革命(上) 与那个独裁者相比 习近平真是弱爆了！ 一平说变局17 2017.12.22" ./d yp12121 https://www.youtube.com/watch?v=iqCvOkr1vS4
 #fps=25 speed=1 n=2 ss=0 S1="史上首次颜色革命(下) 玩残政治流氓的 经典套路 一平说变局17 2017.12.22" ./d yp12222 https://www.youtube.com/watch?v=2LEXK0NC4_g
+#fps=25 speed=1 n=5 ss=0 S1="1986纪录片\\\\N菲律宾二月革命 英文中字" ./d prev1986 https://www.youtube.com/watch?v=BWQHSJJ8OyE
 #fps=25 speed=1 n=6 ss=0 S1="2014纪录片 《超越恐惧》 中国良心高智晟律师 中文字幕" ./d gzs2014 https://www.youtube.com/watch?v=Eur72xe19gQ
 #fps=25 speed=1 n=2 ss=0 S1="2002纪录片 《推翻独裁者》-1 中文版" ./d howto-1 https://www.youtube.com/watch?v=P4H5Vr1rWbM
 #fps=25 speed=1 n=2 ss=0 S1="2002纪录片 《推翻独裁者》-2 中文版" ./d howto-2 https://www.youtube.com/watch?v=LSzUGZpgVrY
