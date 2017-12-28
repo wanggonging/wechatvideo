@@ -5,18 +5,25 @@ if [ ! "a$3" != "a-t" ]; then
 	exit
 fi
 
+quiet="-q"
+prefix=""
+if [ $debug == "1" ]; then
+	quiet=""
+	prefix="bash -x"
+fi
+
 if [ -f $1.mp4 ]; then
- ./t $1.mp4 -q
+ $prefix ./t $1.mp4 $quiet
  exit
 fi
 
 if [ -f $1.mkv ]; then
- ./t $1.mkv -q
+ $prefix ./t $1.mkv $quiet
  exit
 fi
 
 if [ -f $1.webm ]; then
- ./t $1.webm -q
+ $prefix ./t $1.webm $quiet
  exit
 fi
 

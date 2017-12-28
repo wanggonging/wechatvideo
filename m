@@ -1,6 +1,15 @@
 #!/bin/bash
 #民复:
 #fps=25 speed=1 n=1 ss=0 S1="" ./d
+fps=15 speed=1 n=1 ss=0 S1="点点今天事 2017.12.27" ./d dd1227 https://www.youtube.com/watch?v=76ZFvvyukcg
+#volume=4 fps=10 speed=1 n=1 ss=0 S1="一平说变局01 将来全民上街之后 中共是否能够重演 六四屠杀？ 2017.08.09" ./d yp0809 https://www.youtube.com/watch?v=t_-fXXiLKfA
+#fps=25 speed=1 n=3 ss=25 S1="明镜专访 谢阳律师爱人陈桂秋 2017.12.27" ./d xy1227 https://www.youtube.com/watch?v=_4tQaHF3VMc
+#fps=25 speed=1.1 n=4 ss=20 S1="曹长青龚小夏对谈 郭文贵爆料有几分真？ 长青访谈之二 2017.12.26" ./d ccq1226 https://www.youtube.com/watch?v=Ps_ClMvRGko
+#fps=25 speed=1 n=2 ss=0 S1="生活会吵架 习与李此消彼长 12月27日读报点评" ./d jwp1227 https://www.youtube.com/watch?v=gNzijpnGomY
+#fps=25 speed=1 n=2 ss=0 S1="卓尔不群忠厚淳朴 华国锋（下） 《建民论推墙123》 2017.12.27" ./d wjm1227 https://www.youtube.com/watch?v=-Z0kaqMvWNI
+#fps=25 speed=1 n=1 ss=0 S1="华涌\\\\N2017.12.27\\\\N又遇小胖 他在地铁口开黑车等活 他也是D端人口……" ./d hy1227 https://www.youtube.com/watch?v=_wUg1LHPVWM
+#fps=25 speed=1 n=1 ss="5:55 -t 4:01" S1="2017 十大中共落马高官" ./d top10 https://www.youtube.com/watch?v=jTgagN_Oc0U
+#fps=25 speed=1.2 n=3 ss=21 S1="时事大家谈 完整版 2017年12月27日" ./d voa1227 https://www.youtube.com/watch?v=rc6B6Gwejsk
 #fps=25 speed=1.1 n=6 ss=0 S1="艾晓明纪录片 《夹边沟祭事》 01-右派农场\\\\N2017" ./d jbg01 https://www.youtube.com/watch?v=M0NN1F_HegY
 #fps=25 speed=1.1 n=6 ss=0 S1="艾晓明纪录片 《夹边沟祭事》 02-劳教青春\\\\N2017" ./d jbg02 https://www.youtube.com/watch?v=2PqLOs_YMWY
 #fps=25 speed=1.1 n=6 ss=0 S1="艾晓明纪录片 《夹边沟祭事》 03-风雪明水\\\\N 2017" ./d jbg03 https://www.youtube.com/watch?v=PJwc8fNEuiY
@@ -25,10 +34,10 @@
 #fps=25 speed=1 n=2 ss=0 S1="2002纪录片 《推翻独裁者》-2 中文版" ./d howto-2 https://www.youtube.com/watch?v=LSzUGZpgVrY
 #fps=25 speed=1.1 n=2 ss=0 S1="2002纪录片 《推翻独裁者》-3 中文版" ./d howto-3 https://www.youtube.com/watch?v=v-NURefGL54
 #fps=25 speed=1 n=8 ss=0 S1="吉恩·夏普纪录片 《怎样开始一场革命？》 中文版" ./d rev https://www.youtube.com/watch?v=xa1oM7QYnIU
-#fps=25 speed=1 n=2 ss=0 S1="《更强大的力量》\\\\N(三) 丹麦和智利-1 中文版" ./d nv-c1 https://www.youtube.com/watch?v=FL9a3O7Rg0Y
+#fps=25 speed=1 n=2 ss=122 S1="《更强大的力量》\\\\N(三) 丹麦和智利-1 中文版" ./d nv-c1 https://www.youtube.com/watch?v=FL9a3O7Rg0Y
 #fps=25 speed=1 n=2 ss=0 S1="《更强大的力量》\\\\N(三) 丹麦和智利-2 中文版" ./d nv-c2 https://www.youtube.com/watch?v=Vx4rpb1NJtg
 #fps=25 speed=1 n=1 ss=0 S1="《更强大的力量》\\\\N(三) 丹麦和智利-3 中文版" ./d nv-c3 https://www.youtube.com/watch?v=M-Eu3CIqXXo
-#fps=25 speed=1 n=2 ss=0 S1="《更强大的力量》\\\\N(二) 波兰和南非-1 中文版" ./d nv-b1 https://www.youtube.com/watch?v=jN6Cjc-1sSg
+#fps=25 speed=1 n=2 ss=120 S1="《更强大的力量》\\\\N(二) 波兰和南非-1 中文版" ./d nv-b1 https://www.youtube.com/watch?v=jN6Cjc-1sSg
 #fps=25 speed=1 n=2 ss=0 S1="《更强大的力量》\\\\N(二) 波兰和南非-2 中文版" ./d nv-b2 https://www.youtube.com/watch?v=dzR4mg1vAhc
 #fps=25 speed=1 n=1 ss=0 S1="《更强大的力量》\\\\N(二) 波兰和南非-3 中文版" ./d nv-b3 https://www.youtube.com/watch?v=4z-6h5VlwMA
 #fps=25 speed=1 n=2 ss=0 S1="《更强大的力量》\\\\N(一) 印度和纳什维尔1 中文版" ./d nv-a1 https://www.youtube.com/watch?v=Pt-Ko8lHQuM
