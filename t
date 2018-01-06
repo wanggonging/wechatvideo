@@ -25,6 +25,10 @@ if [ $v -gt 300 ]
 then
 	v=300
 fi
+if [ "$vv" != "" ]
+then
+	v=$vv
+fi
 
 if [ "$volume" = "" ]; then
 	volume=1

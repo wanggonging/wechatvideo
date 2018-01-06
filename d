@@ -7,7 +7,7 @@ fi
 
 quiet="-q"
 prefix=""
-if [ $debug == "1" ]; then
+if [ "$debug" == "1" ]; then
 	quiet=""
 	prefix="bash -x"
 fi
