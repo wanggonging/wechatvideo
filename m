@@ -1,10 +1,37 @@
 #!/bin/bash
-#December 31, 2017 (Persian calendar 1396/10/10)
+#December 31, 2017 (Persian calendar 1396/10/10) 1 -> 11, 
 #fps=10 speed=1 n=1 ss=0 S1="" ./d
 #fps=10 speed=1 n=1 ss=0 S1="" ./d
 #fps=10 speed=1 n=1 ss=0 S1="" ./d
-#fps=10 speed=1 n=1 ss=0 S1="" ./d
-fps=10 speed=1.1 n=2 ss=10 S1="自由亚洲中国热评 2018高墙内外 中国哪些大事起风云 2018.01.05" ./d rfa15 https://www.youtube.com/watch?v=y3d4PMzOIIE
+#fps=10 speed=1 n=1 ss=19 S1="中国真能拿下台湾吗？ 中国最辉煌的时代 也是最开明的时代？ 《华盛顿看天下》 2018年1月8日" ./d huashengdun0108 https://www.youtube.com/watch?v=ieHfcm8Hsds
+#fps=10 speed=1 n=1 ss=0 S1="中共49建政和 伊朗79伊斯兰革命 是一样的倒行逆施 《建民论推墙129》 2018.01.08" ./d wjm0108 https://www.youtube.com/watch?v=HfvpogomYAc
+#fps=25 speed=1 n=1 ss=0 S1="农地收益遭侵吞？ 东莞麻涌镇村民 包围派出所 2018.01.08" ./d rfa0108 https://www.youtube.com/watch?v=WgD3E0wChXE
+#fps=25 speed=1 n=1 ss=0 S1="上海退休老人走上街头 要求同城待遇 2018.01.08" ./d ntd01082 https://www.youtube.com/watch?v=bzTj-447E6c
+#fps=25 speed=1 n=1 ss=0 S1="陕西百余业主堵路 抗议寒冬不供暖 2018.01.08" ./d ntd0108 https://www.youtube.com/watch?v=aEqiCaHAruQ
+#fps=10 speed=1 n=1 ss=0 S1="习近平全军开训向谁示威 军迷的误区和 “苏芬之战”魅影 20180108第287期" ./d wz0108 https://www.youtube.com/watch?v=2ToEGBgRpvY
+#fps=10 speed=1 n=2 ss=28 S1="时事大家谈 完整版 （2018年1月8日）" ./d voa0108 https://www.youtube.com/watch?v=xqOqXkTtPh4
+#fps=10 speed=1 n=2 ss=0 S1="朱万利 看看温家宝家族 的财富(下)\\\\N2018.01.08" ./d zwl0108 https://www.youtube.com/watch?v=pbRm9WNupO0
+#fps=10 speed=1 n=2 ss=0 S1="朱万利 看看温家宝家族 的财富(下)\\\\N2018.01.08" ./d zwl0108 https://www.youtube.com/watch?v=pbRm9WNupO0
+#aa=8000 fps=10 speed=1 n=1 ss=0 S1="20141127 杨宪宏采访秦永敏" ./d qym20141127 https://www.youtube.com/watch?v=L-30t3gYQoo
+#aa=8000 fps=10 speed=1 n=1 ss=35 S1="20141127 杨宪宏采访秦永敏 {\\\\fs(30)}2015年1月9日秦永敏被武汉当局带走 至今三年未判" ./d qym20141127 https://www.youtube.com/watch?v=L-30t3gYQoo
+#fps=10 speed=1 n=1 ss=0 S1="{\\\\fs(45)}20141127 杨宪宏采访秦永敏\\\\N\\\\N{\\\\fs(30)}2015年1月9日秦永敏被武汉当局 以“接受外媒采访及写文章过多” 为由用空白拘留证拘留 至今三年未判" ./d qym20141127 https://www.youtube.com/watch?v=L-30t3gYQoo
+#fps=10 speed=1 n=1 ss=0 S1="常珈瑄公益维权 冬季特别行动合集 2018.01.06" ./d cjx0104 https://www.youtube.com/watch?v=lwlxVHRrYKw
+#fps=10 speed=1 n=1 ss=0 S1="习近平新年训令不怕死 解放军枪口到底对准谁 2018.01.07 No.110" ./d xm0107 https://www.youtube.com/watch?v=ZuQVM-l3A3g
+#fps=10 speed=1 n=1 ss=0 S1="馬克龍敢罵習近平？ 別來中國了！ 《點點今天事》 2018.01.07" ./d dd01072 https://www.youtube.com/watch?v=fYBb23bjjlI
+#fps=10 speed=1.1 n=1 ss=0 S1="薄熙来能翻案吗？ 1月7日读报点评" ./d jwp0107 https://www.youtube.com/watch?v=zENwxfuwd-Q
+#fps=10 speed=1 n=2 ss=0 S1="《澳洲之声》安红专访 中共退役军官胡伟（5） 伊朗革命 朝核文件 2018.01.07" ./d aus0107 https://www.youtube.com/watch?v=wtdRl0zkGqc
+#fps=10 speed=1 n=2 ss=0 S1="夏业良 伊朗爆发大规模示威 房产税是中国人抗争 的导火索吗？ 2018.01.06" ./d xyl0106 https://www.youtube.com/watch?v=BeYMgyWGEeU
+#fps=10 speed=1 n=1 ss=0 S1="溫家寶被習近平棄用？ 熬成老虎尚待時 《點點今天事》 2018.01.06" ./d dd01062 https://www.youtube.com/watch?v=6Vph_Oww_Ek
+#fps=10 speed=1 n=1 ss=0 S1="周永康狱中后悔 儿子跟着倒霉 1月6日读报点评" ./d jwp0106 https://www.youtube.com/watch?v=DzDIBTer8Sk
+#fps=10 speed=1 n=2 ss=0 S1="华涌：Feilin在宋庄 2018-1-5 看严正学的画展 看徐若涛电影 蹭季风面条" ./d hy0106felin https://www.youtube.com/watch?v=dJeSjyFNkfQ
+#fps=10 speed=1 n=1 ss=0 S1="王岐山當副主席 就是隨時可取代習近平 《點點今天事》 2018.01.06" ./d dd0106 https://www.youtube.com/watch?v=TXxPkjnQibk
+#fps=10 speed=1 n=1 ss=0 S1="半岛局势惊人翻转 金正恩再次成为大赢家？ 有人使坏 2018.01.06" ./d cpk0106 https://www.youtube.com/watch?v=Ee3CTqiq0e8
+#vv=40 fps=10 speed=1 n=1 ss=0 S1="{\\\\fs(50)}川普执政一年成绩斐然 一边吃着习近平的故宫大餐 一边给中共迎头痛击 【建民论推墙128】 2018.01.05" ./d wjm01052 https://www.youtube.com/watch?v=YFOSItRj7eY
+
+#fps=10 speed=1 n=2 ss=0 S1="力挺郭文贵 10岁反革命 朱万利女士的反叛人生 2017.08.01" ./d zwl0801 https://www.youtube.com/watch?v=wZ0f96u8oFY
+#fps=10 speed=1 n=1 ss=0 S1="广西上千村民游行 抗议当局强拆 2018.01.05" ./d ntd01052 https://www.youtube.com/watch?v=yzV9ADGnqQw
+#fps=10 speed=1 n=1 ss=0 S1="提倡藏语 扎西文色 被中共控以煽动分裂罪 2018.01.05" ./d ntd01051 https://www.youtube.com/watch?v=csZU3o1rgU8
+#vv=80 fps=10 speed=1.1 n=1 ss=10 S1="自由亚洲中国热评 2018高墙内外 中国哪些大事起风云 2018.01.05" ./d rfa15 https://www.youtube.com/watch?v=y3d4PMzOIIE
 #fps=10 speed=1.1 n=2 ss=19 S1="金正恩川普 誰的核按鈕更大？ 伊朗雞蛋革命已被鎮壓？ 《網言網事》 2018.01.05" ./d ct0105 https://www.youtube.com/watch?v=PGLvN7cz6bQ
 #fps=10 speed=1 n=1 ss=0 S1="台湾新党王炳忠 涉共谍案的新进展 与“举一废百”之陷阱 20180105第286期" ./d wz0105 https://www.youtube.com/watch?v=rou6CC11qRE
 #fps=10 speed=1 n=1 ss=0 S1="李鸿忠成了小林彪 1月5日读报点评" ./d jwp0105 https://www.youtube.com/watch?v=8-PgwMVN3Yg
@@ -12,12 +39,12 @@ fps=10 speed=1.1 n=2 ss=10 S1="自由亚洲中国热评 2018高墙内外 中国�
 #fps=10 speed=1 n=3 ss=23 S1="李爱杰 傅希秋 专访 她们是如何逃离中国 奔向自由的？ 2018.01.05" ./d laj0105 https://www.youtube.com/watch?v=8bMx7Y8hI7g
 #fps=10 speed=1 n=1 ss=0 S1="伊朗总统和中共一样 当年成功靠打砸抢 【建民论推墙127】 2018.01.05" ./d wjm0105 https://www.youtube.com/watch?v=-ovtC_WqiwE
 #fps=10 speed=1 n=2 ss=12 S1="焦点对话 完整版（2018年1月5日）" ./d voa0105 https://www.youtube.com/watch?v=VS5m-uppmAc
+fps=10 speed=1 n=1 ss=0 S1="一平说变局21 也谈习近平集权 解说套路 预测走向 最后还要给他点赞加油! 2018.01.09" ./d lyp0109 https://www.youtube.com/watch?v=5dknCzna250
 #fps=10 speed=1 n=1 ss=0 S1="一平说变局20 大数据 人工智能 与天网工程 维稳新术与 高科技奴隶制社会 2018.01.05" ./d lyp0105 https://www.youtube.com/watch?v=x_oUVlVfl3Y
 #fps=10 speed=1 n=2 ss=0 S1="{\\\\fs(50)}朱万利 看看温家宝家族的财富 （上） 2018.01.03 {\\\\fs(30)}抱歉有二处口误 戴梦得宝石公司 有时说成戴得利宝石公司 女富豪段伟红有时说成段红伟" ./d zwl0104 https://www.youtube.com/watch?v=peFtOwQ6A5Y
 #fps=10 speed=1 n=1 ss=27 S1="徐佩玲专访 中国公民诉权团队 是如何抗争的？ 2018.01.04" ./d xpl0104 https://www.youtube.com/watch?v=xa1IVCPL8SA
 #fps=10 speed=1 n=1 ss=0 S1="习近平求助万岁军 太紧张了 1月4日读报点评" ./d jwp0104 https://www.youtube.com/watch?v=RR2GEO5urSM
 #fps=10 speed=1 n=1 ss=0 S1="习近平求助万岁军 太紧张了 1月4日读报点评" ./d jwp0104 https://www.youtube.com/watch?v=RR2GEO5urSM
-#fps=10 speed=1 n=2 ss=95 S1="郭文贵1月4日直播 习近平李克强的女儿 进入北大背后的故事" ./d wg0104 https://www.youtube.com/watch?v=RyL9KKiok3g
 #fps=10 speed=1 n=2 ss=95 S1="郭文贵1月4日直播 习近平李克强的女儿 进入北大背后的故事" ./d wg0104 https://www.youtube.com/watch?v=RyL9KKiok3g
 #fps=10 speed=1 n=2 ss=95 S1="郭文贵1月4日直播 习近平李克强的女儿 进入北大背后的故事" ./d wg0104 https://www.youtube.com/watch?v=RyL9KKiok3g
 #fps=10 speed=1 n=2 ss=95 S1="郭文贵1月4日直播 习近平李克强的女儿 进入北大背后的故事" ./d wg0104 https://www.youtube.com/watch?v=RyL9KKiok3g
