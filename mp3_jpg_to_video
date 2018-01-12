@@ -1,0 +1,2 @@
+#!/bin/bash
+ffmpeg -loop 1 -i xuzhihan.jpg -i ../PUBLIC/xuzhihan-20180112-40k-normalized.mp3 -vcodec libx264 -strict -2 -shortest test.mp4
