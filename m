@@ -4,9 +4,40 @@
 #fps=10 speed=1 n=1 ss=0 S1="" ./d
 #fps=10 speed=1 n=1 ss=0 S1="" ./d
 #fps=10 speed=1 n=1 ss=0 S1="" ./d
+#fps=10 speed=1 n=1 ss=0 S1="" ./d
+#fps=10 speed=1 n=1 ss=0 S1="" ./d
+#fps=10 speed=1 n=1 ss=0 S1="" ./d
+#fps=10 speed=1 n=1 ss=0 S1="" ./d
+#fps=10 speed=1 n=1 ss=0 S1="" ./d
+#fps=10 speed=1 n=1 ss=0 S1="" ./d
 
 
 
+
+
+
+#
+# 朱万利
+#
+
+#fps=10 speed=1 n=1 ss=0 S1="朱万利01 谈郭文贵 一个人的奴隶大起义 2017.7.27" ./d zwl01 https://www.youtube.com/watch?v=UV_2B3DfbBg
+#vv=7 fps=10 speed=1 n=1 ss=0 S1="朱万利02 力挺郭文贵 朱万利女士的反叛人生 2017.8.1" ./d zwl02 https://www.youtube.com/watch?v=wZ0f96u8oFY
+#fps=10 speed=1 n=1 ss=0 S1="朱万利03 全民参加 以郭文贵为主导的 民主大革命 2017.8.9" ./d zwl03 https://www.youtube.com/watch?v=rgGXKAGRy6M
+#fps=10 speed=1 n=1 ss=0 S1="朱万利04 请中共所谓的 “低端人口” 围观郭文贵推特！ 2017.8.16" ./d zwl04  https://www.youtube.com/watch?v=NbBAn5m7FOA
+#fps=10 speed=1 n=1 ss=0 S1="朱万利05 力挺郭文贵 活摘器官还要走多久(上) 2017.9.5" ./d zwl05 https://www.youtube.com/watch?v=kXEfSbKJ5sc
+#fps=10 speed=1 n=1 ss=0 S1="朱万利06 力挺郭文贵 活摘器官还要走多久(下) 2017.9.11" ./d zwl06 https://www.youtube.com/watch?v=H9rW55zdWeA
+#fps=10 speed=1 n=1 ss=0 S1="朱万利07 谈王立军的 活人人体实验 2017.9.16" ./d zwl07 https://www.youtube.com/watch?v=au0HgcbYvBo
+#fps=10 speed=1 n=1 ss=0 S1="朱万利08 中共滥用“红通” 迫害郭文贵迫害人权 2017.10.2" ./d zwl08 https://www.youtube.com/watch?v=usIeuI7d7so
+#fps=10 speed=1 n=1 ss=0 S1="朱万利09 谈蚁力神集资诈骗案 2017.11.12" ./d zwl09 https://www.youtube.com/watch?v=tvbsYP2QqEM
+#fps=10 speed=1 n=1 ss=0 S1="朱万利10 叙述《天堂文件》的 相关内容\\\\N2017.11.18" ./d zwl10 https://www.youtube.com/watch?v=dUqnx-WiNnY
+#vv=9 fps=10 speed=1 n=1 ss=0 S1="朱万利11 中共按计划行事 驱逐低端人口贫民运动 明镜电视《法治与社会》第82期 2017.11.27" ./d zwl11 https://www.youtube.com/watch?v=fwRTzqEyy5I
+#fps=10 speed=1 n=1 ss=0 S1="朱万利12 非法滞留中国的非裔人群 现状和问题\\\\N2017.12.7" ./d zwl12 https://www.youtube.com/watch?v=ZtsBHZAQx1M
+#fps=10 speed=1 n=1 ss=0 S1="朱万利13 十问中共 民众的生存权在哪\\\\N2017.12.10" ./d zwl13 https://www.youtube.com/watch?v=UQfIja6Im8g
+#fps=10 speed=1 n=1 ss=0 S1="朱万利14 谈万里大造林集资诈骗案\\\\N2017.12.18" ./d zwl14 https://www.youtube.com/watch?v=jnGWPpY6opk
+#fps=15 speed=1 n=1 ss=0 S1="朱万利15 中共征收遗产税 就是对民众财富 的掠夺 2018.01.01" ./d zwl0101 https://www.youtube.com/watch?v=PdLQrbMjnfQ
+#fps=10 speed=1 n=2 ss=0 S1="{\\\\fs(50)}朱万利16 看看温家宝家族的财富 （上） 2018.01.03 {\\\\fs(30)}抱歉有二处口误 戴梦得宝石公司 有时说成戴得利宝石公司 女富豪段伟红有时说成段红伟" ./d zwl0104 https://www.youtube.com/watch?v=peFtOwQ6A5Y
+#fps=10 speed=1 n=2 ss=0 S1="朱万利17 看看温家宝家族 的财富(下)\\\\N2018.01.08" ./d zwl0108 https://www.youtube.com/watch?v=pbRm9WNupO0
+#fps=10 speed=1 n=1 ss=0 S1="朱万利18 这是2017.09.17 评论六四大屠杀\\\\N视频的节选\\\\N2018.01.11" ./d zwl18 https://www.youtube.com/watch?v=iZ_LzuOymck
 
 #
 # GWG
@@ -27,10 +58,6 @@
 #fps=10 speed=1 n=3 ss=0 S1="2018最新纪录片 《1989的女孩》 2018.1.8" ./d 1989girls https://www.youtube.com/watch?v=0CWbcYz1VHA
 #fps=10 speed=1 n=1 ss=0 S1="{\\\\fs(45)}20141127 杨宪宏采访秦永敏\\\\N\\\\N{\\\\fs(30)}2015年1月9日秦永敏被武汉当局 以“接受外媒采访及写文章过多” 为由用空白拘留证拘留 至今三年未判" ./d qym20141127 https://www.youtube.com/watch?v=L-30t3gYQoo
 #fps=10 speed=1 n=2 ss=0 S1="《澳洲之声》安红专访 中共退役军官胡伟（5） 伊朗革命 朝核文件 2018.01.07" ./d aus0107 https://www.youtube.com/watch?v=wtdRl0zkGqc
-#fps=10 speed=1 n=2 ss=0 S1="力挺郭文贵 10岁反革命 朱万利女士的反叛人生 2017.08.01" ./d zwl0801 https://www.youtube.com/watch?v=wZ0f96u8oFY
-#fps=10 speed=1 n=2 ss=0 S1="{\\\\fs(50)}朱万利 看看温家宝家族的财富 （上） 2018.01.03 {\\\\fs(30)}抱歉有二处口误 戴梦得宝石公司 有时说成戴得利宝石公司 女富豪段伟红有时说成段红伟" ./d zwl0104 https://www.youtube.com/watch?v=peFtOwQ6A5Y
-#fps=10 speed=1 n=2 ss=0 S1="朱万利 看看温家宝家族 的财富(下)\\\\N2018.01.08" ./d zwl0108 https://www.youtube.com/watch?v=pbRm9WNupO0
-#fps=15 speed=1 n=1 ss=0 S1="朱万利 中共征收遗产税 就是对民众财富 的掠夺 2018.01.01" ./d zwl0101 https://www.youtube.com/watch?v=PdLQrbMjnfQ
 #fps=15 speed=1 n=1 ss=0 S1="{\\\\fs(40)}布什总统就职演说 当你挺起胸膛争取自由时 美国会和你站在一起 2005.01.20" ./d bush2005 https://www.youtube.com/watch?v=Tt3aILpqKog
 #fps=15 speed=1.1 n=1 ss=0 S1="一个弱女子的呐喊\\\\N徐秦\\\\N2016.12.15" ./d xq2016 https://www.youtube.com/watch?v=HyXnG72zdX0
 #fps=15 speed=1 n=3 ss=0 S1="监狱里要做的事 有尊严的活着！ 吴建民分享坐牢经历 2017年6月15日" ./d wjm02 https://www.youtube.com/watch?v=2qiirb-pvw0
@@ -68,13 +95,23 @@
 #fps=10 speed=1 n=1 ss=0 S1="一平说变局20 大数据 人工智能 与天网工程 维稳新术与 高科技奴隶制社会 2018.01.05" ./d lyp0105 https://www.youtube.com/watch?v=x_oUVlVfl3Y
 #fps=10 speed=1 n=1 ss=0 S1="一平说变局21 也谈习近平集权 解说套路 预测走向 最后还要给他点赞加油! 2018.01.09" ./d lyp0109 https://www.youtube.com/watch?v=5dknCzna250
 #fps=10 speed=1 n=1 ss=0 S1="一平说变局22 大危机即将来临 贫民、中产和富豪 如何保命保财？2018.01.11" ./d lyp0111 https://www.youtube.com/watch?v=vGOgAh4_LwU
+
+#
+# 纪录片
+#
+
 #fps=10 speed=1 n=4 ss=0 S1="艾晓明纪录片 《夹边沟祭事》 01-右派农场\\\\N2017" ./d jbg01 https://www.youtube.com/watch?v=M0NN1F_HegY
 #fps=10 speed=1.1 n=4 ss=0 S1="艾晓明纪录片 《夹边沟祭事》 02-劳教青春\\\\N2017" ./d jbg02 https://www.youtube.com/watch?v=2PqLOs_YMWY
 #fps=10 speed=1.1 n=4 ss=0 S1="艾晓明纪录片 《夹边沟祭事》 03-风雪明水\\\\N 2017" ./d jbg03 https://www.youtube.com/watch?v=PJwc8fNEuiY
 #fps=10 speed=1.1 n=4 ss=0 S1="艾晓明纪录片 《夹边沟祭事》 04-抢救人命\\\\N 2017" ./d jbg04 https://www.youtube.com/watch?v=wSPf2ZouudI
 #fps=10 speed=1.1 n=4 ss=0 S1="艾晓明纪录片 《夹边沟祭事》 05-魂归何处\\\\N 2017" ./d jbg05 https://www.youtube.com/watch?v=jCyLJLj3Xyw
+
+
+
+
 #fps=25 speed=1 n=1 ss=0 S1="2008年10月 刘晓波被捕前 接受香港电台访问 我的坚持" ./d lxb2008 https://www.youtube.com/watch?v=SI8X1cYCuk4
 #fps=25 speed=1 n=1 ss=0 S1="王炳章博士演讲 我们的民族缺少灵魂 这是一场没有灵魂的革命" ./d wbz https://www.youtube.com/watch?v=-pFLVL-eRIA
+
 #fps=25 speed=1.3 n=1 ss=0 S1="{\\\\fs(49)}《公民抵抗初探》 普通民众如何采取 公民抵抗 打败强大的统治者? 公民抵抗如何开始? 怎样组织抗议活动?" ./d cv https://www.youtube.com/watch?v=ficH9nLPZiE
 #fps=25 speed=1 n=6 ss=0 S1="公视主题之夜 毛泽东的大饥荒 2017年11月17日" ./d mao171117 https://www.youtube.com/watch?v=Lotnpq0Usgc
 #fps=25 speed=1 n=10 ss=0 S1="1994年PBS纪录片 一个世纪的革命 （二) 1949-1976 中文字幕" ./d pbs2 https://www.youtube.com/watch?v=GMaXSKH2w3c
