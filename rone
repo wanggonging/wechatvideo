@@ -1,0 +1,6 @@
+#!/bin/bash
+input=$1
+datefull=`TZ="UTC-8" date "+%y%m%d%H%M%S"`
+output=O_${datefull}_${input#*_}
+cp -f $input $output
+vim -b -c "s/videolan.org/$datefull/ | wq" $output
