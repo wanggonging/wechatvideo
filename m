@@ -6,14 +6,15 @@
 #fps=10 speed=1 n=1 ss=0 S1="" ./d
 #fps=10 speed=1 n=1 ss=0 S1="" ./d
 #fps=10 speed=1 n=1 ss=0 S1="" ./d
-#fps=10 speed=1 n=1 ss=0 S1="" ./d
-#fps=10 speed=1 n=1 ss=0 S1="" ./d
-#fps=10 speed=1 n=1 ss=0 S1="" ./d
-#fps=10 speed=1 n=1 ss=0 S1="" ./d
 
+#
+# 华涌
+#
 
-
-
+#fps=10 speed=1 n=1 ss=0 S1="华涌有话说（1） 2018-1-11 倡议“真话运动” 力挺山西临汾 真话义士常珈瑄" ./d hyszh01 https://www.youtube.com/watch?v=DXnVWloXQDY
+#fps=10 speed=1 n=1 ss=0 S1="华涌有话说（2） 2018-1-12" ./d hyszh02 https://www.youtube.com/watch?v=IoL_8HlXIXg
+#fps=10 speed=1 n=1 ss=0 S1="华涌有话说（3） 2018-1-13" ./d hyszh03 https://www.youtube.com/watch?v=c6dWdmVmKrI
+#fps=10 speed=1 n=1 ss=0 S1="华涌有话说（4） 2018-1-14 有彩蛋哦！" ./d hyszh04 https://www.youtube.com/watch?v=8fUAf1_y0gE
 
 
 #
