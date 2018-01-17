@@ -1,0 +1,2 @@
+cconv -f UTF8 -t UTF8-CN $1 >cn
+chmod 700 cn
