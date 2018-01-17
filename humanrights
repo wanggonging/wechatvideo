@@ -1,5 +1,5 @@
 #!/bin/bash
-fps=10 speed=1 n=1 ss=0 S1="{\\\\fs(60)\\\\c(FFFFFF)}人权的故事\\\\N人权的演进与由来" ./d hr00 https://www.youtube.com/watch?v=UPQ_uaiyYTE
+fps=10 speed=1 n=1 ss=0 S1="{\\\\fs(60)\\\\c(FF00FF)}人权的故事\\\\N人权的演进与由来" ./d hr00 https://www.youtube.com/watch?v=UPQ_uaiyYTE
 fps=10 speed=1 n=1 ss=0 S1="{\\\\fs(60)\\\\c(FF0000)}人权公益广告\\\\N#1\\\\N我们天生自由而平等" ./d hr01 https://www.youtube.com/watch?v=YvmRLGi1yPw
 fps=10 speed=1 n=1 ss=0 S1="{\\\\fs(60)\\\\c(FF4000)}人权公益广告\\\\N#2\\\\N不要有差别待遇" ./d hr02 https://www.youtube.com/watch?v=iggHnjX9zFY
 fps=10 speed=1 n=1 ss=0 S1="{\\\\fs(60)\\\\c(FF7000)}人权公益广告\\\\N#3\\\\N生存的权利" ./d hr03 https://www.youtube.com/watch?v=kpHYx-FOXLM
