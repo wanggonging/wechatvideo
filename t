@@ -19,7 +19,7 @@ DURATION=`echo "(( $DURATION_H * 60 + $DURATION_M ) * 60 + $DURATION_S) / $speed
 D=`printf %.0f $DURATION`
 LENGTH=`echo "($DURATION + $n - 1)/$n" | bc -l`
 len=`printf %.0f $LENGTH`
-VRATE=`echo "20*1024*8 / $len - 50" | bc -l`
+VRATE=`echo "20*1024*8 / $len - 30" | bc -l`
 v=`printf %.0f $VRATE`
 if [ $v -gt 300 ]
 then
@@ -28,6 +28,11 @@ fi
 if [ "$vv" != "" ]
 then
 	v=$vv
+fi
+audio="-q:a 1.5 -ac 1 -ar 8000"
+if [ "$aa" != "" ]
+then
+	audio=$aa
 fi
 
 if [ "$volume" = "" ]; then
@@ -62,7 +67,7 @@ then
 
 	ffmpeg \
 	-i $input -y \
-      	-strict -2 -q:a 1.5 -ac 1 -ar 8000 \
+      	-strict -2 $audio \
        	-b:v ${v}k -r 25 \
        	-filter_complex "[0:v]setpts=PTS/${speed}[v];[0:a]volume=$volume[af];[af]atempo=${speed}[a]" \
        	-map "[v]" -map "[a]" \
@@ -90,7 +95,7 @@ else
 	sed -e "s/AAAAAAA/$S1/g; s/CCCCCCC/$tech/g" template.ass > $filename_withoutext.ass
 	ffmpeg \
 	-i $input -y \
-      	-strict -2 -q:a 1.5 -ac 1 -ar 8000 \
+      	-strict -2 $audio \
      	-b:v ${v}k -r ${fps} \
        	-filter_complex "[0:v]setpts=PTS/${speed}[v1];[v1]ass=$filename_withoutext.ass[v];[0:a]volume=$volume[af];[af]atempo=${speed}[a]" \
        	-map "[v]" -map "[a]" \
