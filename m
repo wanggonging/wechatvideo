@@ -3,9 +3,13 @@
 #fps=10 speed=1 n=1 ss=0 S1="" ./d
 #fps=10 speed=1 n=1 ss=0 S1="" ./d
 #fps=10 speed=1 n=1 ss=0 S1="" ./d
-#fps=10 speed=1 n=1 ss=0 S1="" ./d
-#fps=10 speed=1 n=1 ss=0 S1="" ./d
-#fps=10 speed=1 n=1 ss=0 S1="" ./d
+vv=15 aa="-b:a 20k -ac 1 -ar 8000" d=0 fps=10 speed=1 n=1 ss=0 S1="谈民运与反共 2018.01.16" ./d tbq0116 https://www.youtube.com/watch?v=h-UUOoZgQPo
+#fps=10 speed=1 n=1 ss=0 S1="时事大家谈 完整版 2018年1月17日" ./d voa0117 https://www.youtube.com/watch?v=16hcPlgegNs
+#fps=10 speed=1 n=1 ss=0 S1="夏业良评电影 《芳华》 2018.01.16" ./d xyl0116 https://www.youtube.com/watch?v=LppZvb5F6v0
+#fps=10 speed=1 n=1 ss=0 S1="阻止明镜采访 郭文贵背后的故事 神秘投资人 到底为何人？ 小哥谈政事01.17" ./d xg0117 https://www.youtube.com/watch?v=boL74vGKeKc
+#fps=10 speed=1 ss=0 n=1 S1="薄熙来两个秘书 都成了监狱贵族 1月15日读报点评" ./d jwp0115 https://www.youtube.com/watch?v=TvGB4ulna9c
+
+
 
 #
 # 华涌
@@ -36,9 +40,10 @@
 #fps=10 speed=1 n=1 ss=0 S1="朱万利13 十问中共 民众的生存权在哪\\\\N2017.12.10" ./d zwl13 https://www.youtube.com/watch?v=UQfIja6Im8g
 #fps=10 speed=1 n=1 ss=0 S1="朱万利14 谈万里大造林集资诈骗案\\\\N2017.12.18" ./d zwl14 https://www.youtube.com/watch?v=jnGWPpY6opk
 #fps=15 speed=1 n=1 ss=0 S1="朱万利15 中共征收遗产税 就是对民众财富 的掠夺 2018.01.01" ./d zwl0101 https://www.youtube.com/watch?v=PdLQrbMjnfQ
-#fps=10 speed=1 n=2 ss=0 S1="{\\\\fs(50)}朱万利16 看看温家宝家族的财富 （上） 2018.01.03 {\\\\fs(30)}抱歉有二处口误 戴梦得宝石公司 有时说成戴得利宝石公司 女富豪段伟红有时说成段红伟" ./d zwl0104 https://www.youtube.com/watch?v=peFtOwQ6A5Y
-#fps=10 speed=1 n=2 ss=0 S1="朱万利17 看看温家宝家族 的财富(下)\\\\N2018.01.08" ./d zwl0108 https://www.youtube.com/watch?v=pbRm9WNupO0
+#fps=10 speed=1 n=1 ss=0 S1="{\\\\fs(50)}朱万利16 看看温家宝家族的财富 （上） 2018.01.03 {\\\\fs(30)}抱歉有二处口误 戴梦得宝石公司 有时说成戴得利宝石公司 女富豪段伟红有时说成段红伟" ./d zwl0104 https://www.youtube.com/watch?v=peFtOwQ6A5Y
+#fps=10 speed=1 n=1 ss=0 S1="朱万利17 看看温家宝家族 的财富(下)\\\\N2018.01.08" ./d zwl0108 https://www.youtube.com/watch?v=pbRm9WNupO0
 #fps=10 speed=1 n=1 ss=0 S1="朱万利18 这是2017.09.17 评论六四大屠杀\\\\N视频的节选\\\\N2018.01.11" ./d zwl18 https://www.youtube.com/watch?v=iZ_LzuOymck
+#fps=10 speed=1 n=1 ss=0 S1="朱万利19 为什么江胡温 被邓小平 选定为接班人 2018.01.14" ./d zwl19 https://www.youtube.com/watch?v=kxV-lHPA7aM
 
 #
 # GWG
@@ -96,6 +101,7 @@
 #fps=10 speed=1 n=1 ss=0 S1="一平说变局20 大数据 人工智能 与天网工程 维稳新术与 高科技奴隶制社会 2018.01.05" ./d lyp0105 https://www.youtube.com/watch?v=x_oUVlVfl3Y
 #fps=10 speed=1 n=1 ss=0 S1="一平说变局21 也谈习近平集权 解说套路 预测走向 最后还要给他点赞加油! 2018.01.09" ./d lyp0109 https://www.youtube.com/watch?v=5dknCzna250
 #fps=10 speed=1 n=1 ss=0 S1="一平说变局22 大危机即将来临 贫民、中产和富豪 如何保命保财？2018.01.11" ./d lyp0111 https://www.youtube.com/watch?v=vGOgAh4_LwU
+#fps=10 speed=1 n=1 ss=0 S1="一平说变局23 先违宪再修宪 成立国监委之后 一场升级版文革 将要正式开演！ 2018.01.15" ./d lyp23 https://www.youtube.com/watch?v=esTg3t-uCI4
 
 #
 # 纪录片
@@ -113,17 +119,15 @@
 #fps=25 speed=1 n=1 ss=0 S1="2008年10月 刘晓波被捕前 接受香港电台访问 我的坚持" ./d lxb2008 https://www.youtube.com/watch?v=SI8X1cYCuk4
 #fps=25 speed=1 n=1 ss=0 S1="王炳章博士演讲 我们的民族缺少灵魂 这是一场没有灵魂的革命" ./d wbz https://www.youtube.com/watch?v=-pFLVL-eRIA
 
+#
+# 街头革命
+#
 #fps=25 speed=1.3 n=1 ss=0 S1="{\\\\fs(49)}《公民抵抗初探》 普通民众如何采取 公民抵抗 打败强大的统治者? 公民抵抗如何开始? 怎样组织抗议活动?" ./d cv https://www.youtube.com/watch?v=ficH9nLPZiE
-#fps=25 speed=1 n=6 ss=0 S1="公视主题之夜 毛泽东的大饥荒 2017年11月17日" ./d mao171117 https://www.youtube.com/watch?v=Lotnpq0Usgc
-#fps=25 speed=1 n=10 ss=0 S1="1994年PBS纪录片 一个世纪的革命 （二) 1949-1976 中文字幕" ./d pbs2 https://www.youtube.com/watch?v=GMaXSKH2w3c
-#fps=25 speed=1.1 n=1 ss=431 S1="资深报人李勇 揭秘毛泽东私人医生 李志绥之死 2017.2" ./d lzs2017 https://www.youtube.com/watch?v=p5xcLhhI1j4
-#fps=25 speed=1.2 n=4 ss=2:25 S1="1993年纪录片 四九年以后的 毛泽东 " ./d maobbc1993 https://www.youtube.com/watch?v=_TdY9oxV3jk
 #fps=25 speed=1 n=5 ss=0 S1="1986纪录片\\\\N菲律宾二月革命 英文中字" ./d prev1986 https://www.youtube.com/watch?v=BWQHSJJ8OyE
-#fps=25 speed=1 n=6 ss=0 S1="2014纪录片 《超越恐惧》 中国良心高智晟律师 中文字幕" ./d gzs2014 https://www.youtube.com/watch?v=Eur72xe19gQ
 #fps=25 speed=1 n=2 ss=0 S1="2002纪录片 《推翻独裁者》-1 中文版" ./d howto-1 https://www.youtube.com/watch?v=P4H5Vr1rWbM
 #fps=25 speed=1 n=2 ss=0 S1="2002纪录片 《推翻独裁者》-2 中文版" ./d howto-2 https://www.youtube.com/watch?v=LSzUGZpgVrY
 #fps=25 speed=1.1 n=2 ss=0 S1="2002纪录片 《推翻独裁者》-3 中文版" ./d howto-3 https://www.youtube.com/watch?v=v-NURefGL54
-#fps=25 speed=1 n=8 ss=0 S1="吉恩·夏普纪录片 《怎样开始一场革命？》 中文版" ./d rev https://www.youtube.com/watch?v=xa1oM7QYnIU
+#fps=10 speed=1 n=4 ss=0 S1="吉恩·夏普2011纪录片 《怎样开始一场革命？》 中文字幕" ./d rev https://www.youtube.com/watch?v=xa1oM7QYnIU
 #fps=25 speed=1 n=2 ss=122 S1="《更强大的力量》\\\\N(三) 丹麦和智利-1 中文版" ./d nv-c1 https://www.youtube.com/watch?v=FL9a3O7Rg0Y
 #fps=25 speed=1 n=2 ss=0 S1="《更强大的力量》\\\\N(三) 丹麦和智利-2 中文版" ./d nv-c2 https://www.youtube.com/watch?v=Vx4rpb1NJtg
 #fps=25 speed=1 n=1 ss=0 S1="《更强大的力量》\\\\N(三) 丹麦和智利-3 中文版" ./d nv-c3 https://www.youtube.com/watch?v=M-Eu3CIqXXo
@@ -133,6 +137,14 @@
 #fps=25 speed=1 n=2 ss=0 S1="《更强大的力量》\\\\N(一) 印度和纳什维尔1 中文版" ./d nv-a1 https://www.youtube.com/watch?v=Pt-Ko8lHQuM
 #fps=25 speed=1 n=2 ss=0 S1="《更强大的力量》\\\\N(一) 印度和纳什维尔2 中文版" ./d nv-a2 https://www.youtube.com/watch?v=dfX9ZAhnChM
 #fps=25 speed=1 n=1 ss=0 S1="《更强大的力量》\\\\N(一) 印度和纳什维尔3 中文版 " ./d nv-a3  https://www.youtube.com/watch?v=GkouoNKswNk
+
+
+
+#fps=25 speed=1 n=6 ss=0 S1="公视主题之夜 毛泽东的大饥荒 2017年11月17日" ./d mao171117 https://www.youtube.com/watch?v=Lotnpq0Usgc
+#fps=25 speed=1 n=10 ss=0 S1="1994年PBS纪录片 一个世纪的革命 （二) 1949-1976 中文字幕" ./d pbs2 https://www.youtube.com/watch?v=GMaXSKH2w3c
+#fps=25 speed=1.1 n=1 ss=431 S1="资深报人李勇 揭秘毛泽东私人医生 李志绥之死 2017.2" ./d lzs2017 https://www.youtube.com/watch?v=p5xcLhhI1j4
+#fps=25 speed=1.2 n=4 ss=2:25 S1="1993年纪录片 四九年以后的 毛泽东 " ./d maobbc1993 https://www.youtube.com/watch?v=_TdY9oxV3jk
+#fps=25 speed=1 n=6 ss=0 S1="2014纪录片 《超越恐惧》 中国良心高智晟律师 中文字幕" ./d gzs2014 https://www.youtube.com/watch?v=Eur72xe19gQ
 #fps=25 speed=1 n=4 ss=0 S1="解密时刻 大饥荒 天灾还是人祸？ 2012年11月12日" ./d djh1 https://www.youtube.com/watch?v=KQGXZc_6ei4
 #fps=25 speed=1 n=4 ss=0 S1="解密时刻 大饥荒 死人不是数字游戏 2012年12月10日" ./d djh2 https://www.youtube.com/watch?v=GW-8Eax1LIY
 #fps=25 speed=1 n=4 ss=0 S1="解密时刻 大饥荒 谁骗谁？ 2012年12月20日" ./d djh3 https://www.youtube.com/watch?v=tGzZeaIeSBE
