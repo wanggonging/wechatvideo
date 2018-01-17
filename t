@@ -96,7 +96,7 @@ else
 	ffmpeg \
 	-i $input -y \
       	-strict -2 $audio \
-     	-b:v ${v}k -r ${fps} \
+     	-crf 40 -b:v ${v}k -r ${fps} \
        	-filter_complex "[0:v]setpts=PTS/${speed}[v1];[v1]ass=$filename_withoutext.ass[v];[0:a]volume=$volume[af];[af]atempo=${speed}[a]" \
        	-map "[v]" -map "[a]" \
     	/home/public_share/${datefull}_${filename_withoutext}_${speed}_$a$v${fps}.mp4
