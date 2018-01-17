@@ -29,7 +29,8 @@ if [ "$vv" != "" ]
 then
 	v=$vv
 fi
-audio="-q:a 1.5 -ac 1 -ar 8000"
+#audio="-q:a 1.5 -ac 1 -ar 8000"
+audio="-b:a 20k -ac 1 -ar 8000"
 if [ "$aa" != "" ]
 then
 	audio=$aa
@@ -39,7 +40,8 @@ if [ "$volume" = "" ]; then
 	volume=1
 fi
 
-tech="ffmpeg 加速${speed} 音40k 视${v}k ${fps}fps $datefull"
+#tech="ffmpeg 加速${speed} 音40k 视${v}k ${fps}fps $datefull"
+tech="$datefull"
 
 if [ -f sub/${filename_withoutext}.ass ]
 then
@@ -96,7 +98,7 @@ else
 	ffmpeg \
 	-i $input -y \
       	-strict -2 $audio \
-     	-crf 40 -b:v ${v}k -r ${fps} \
+     	-crf 40 -r ${fps} \
        	-filter_complex "[0:v]setpts=PTS/${speed}[v1];[v1]ass=$filename_withoutext.ass[v];[0:a]volume=$volume[af];[af]atempo=${speed}[a]" \
        	-map "[v]" -map "[a]" \
     	/home/public_share/${datefull}_${filename_withoutext}_${speed}_$a$v${fps}.mp4

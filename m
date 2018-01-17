@@ -3,9 +3,9 @@
 #fps=10 speed=1 n=1 ss=0 S1="" ./d
 #fps=10 speed=1 n=1 ss=0 S1="" ./d
 #fps=10 speed=1 n=1 ss=0 S1="" ./d
-vv=15 aa="-b:a 20k -ac 1 -ar 8000" d=0 fps=10 speed=1 n=1 ss=0 S1="谈民运与反共 2018.01.16" ./d tbq0116 https://www.youtube.com/watch?v=h-UUOoZgQPo
+#vv=15 aa="-b:a 20k -ac 1 -ar 8000" d=0 fps=10 speed=1 n=1 ss=0 S1="谈民运与反共 2018.01.16" ./d tbq0116 https://www.youtube.com/watch?v=h-UUOoZgQPo
 #fps=10 speed=1 n=1 ss=0 S1="时事大家谈 完整版 2018年1月17日" ./d voa0117 https://www.youtube.com/watch?v=16hcPlgegNs
-#fps=10 speed=1 n=1 ss=0 S1="夏业良评电影 《芳华》 2018.01.16" ./d xyl0116 https://www.youtube.com/watch?v=LppZvb5F6v0
+fps=10 speed=1 n=1 ss=0 S1="夏业良评电影 《芳华》 2018.01.16" ./d xyl0116 https://www.youtube.com/watch?v=LppZvb5F6v0
 #fps=10 speed=1 n=1 ss=0 S1="阻止明镜采访 郭文贵背后的故事 神秘投资人 到底为何人？ 小哥谈政事01.17" ./d xg0117 https://www.youtube.com/watch?v=boL74vGKeKc
 #fps=10 speed=1 ss=0 n=1 S1="薄熙来两个秘书 都成了监狱贵族 1月15日读报点评" ./d jwp0115 https://www.youtube.com/watch?v=TvGB4ulna9c
 
