@@ -20,9 +20,11 @@ Video Zoom Percent: 0.500000
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: Default,文鼎ＰＬ简报宋,60,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,4,1,5,10,10,10,1
+Style: Logo,文鼎ＰＬ简报宋,60,&H00FF7FFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,9,10,10,10,1
 Style: Tech,Arial,12,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,3,0,5,1,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 0,0:00:00.00,0:00:02.00,Default,,0,0,0,,{\fad(0,1000)}AAAAAAA
+Dialogue: 0,0:00:02.00,0:00:10.00,Logo,,0,0,0,,{\fad(500,1000)}{\fs(20)}每日油兔\N视频速递
 Dialogue: 0,0:00:00.00,0:00:10.00,Tech,,0,0,0,,{\fad(500,1000)}CCCCCCC https://github.com/wanggonging/wechatvideo
