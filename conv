@@ -1,2 +1,1 @@
-cconv -f UTF8 -t UTF8-CN $1 >cn
-chmod 700 cn
+cconv -f UTF8 -t UTF8-CN ~/PUBLIC/frompc.txt

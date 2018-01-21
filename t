@@ -29,6 +29,16 @@ if [ "$vv" != "" ]
 then
 	v=$vv
 fi
+
+##
+# v rate is deprecated, use crf
+#
+crf=40
+if [ "$c" != "" ]
+then
+	crf=$c
+fi
+
 #audio="-q:a 1.5 -ac 1 -ar 8000"
 audio="-b:a 20k -ac 1 -ar 8000"
 if [ "$aa" != "" ]
@@ -46,7 +56,7 @@ tech="$datefull"
 if [ -f sub/${filename_withoutext}.ass ]
 then
 	new=${filename_withoutext}_sub.mkv
-	ffmpeg -y -i $input -vf ass=sub/${filename_withoutext}.ass -acodec copy $new
+	ffmpeg -y -i $input -crf $crf -r $fps -vf ass=sub/${filename_withoutext}.ass -acodec copy $new
 	input=$new
 fi
 
@@ -70,7 +80,7 @@ then
 	ffmpeg \
 	-i $input -y \
       	-strict -2 $audio \
-       	-b:v ${v}k -r 25 \
+       	-crf $crf -r $fps \
        	-filter_complex "[0:v]setpts=PTS/${speed}[v];[0:a]volume=$volume[af];[af]atempo=${speed}[a]" \
        	-map "[v]" -map "[a]" \
 	-f segment -segment_time $len -reset_timestamps 1 \
@@ -88,7 +98,7 @@ then
 		-i ${filename_withoutext}_${j}.mp4 \
 		-vf ass=$filename_withoutext.ass \
 		-acodec copy \
-	       	-b:v ${v}k -r ${fps} \
+	       	-crf $crf -r ${fps} \
 	    	/home/public_share/${datefull}_${filename_withoutext}_${speed}_$a$v${fps}_${i}_of_${n}.mp4
 
 		rm -f ${filename_withoutext}_${j}.mp4
@@ -98,7 +108,7 @@ else
 	ffmpeg \
 	-i $input -y \
       	-strict -2 $audio \
-     	-crf 40 -r ${fps} \
+     	-crf $crf -r ${fps} \
        	-filter_complex "[0:v]setpts=PTS/${speed}[v1];[v1]ass=$filename_withoutext.ass[v];[0:a]volume=$volume[af];[af]atempo=${speed}[a]" \
        	-map "[v]" -map "[a]" \
     	/home/public_share/${datefull}_${filename_withoutext}_${speed}_$a$v${fps}.mp4

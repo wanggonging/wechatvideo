@@ -1,8 +1,14 @@
 #!/bin/bash
 #youtube-dl -f 'bestvideo[height<=480]+bestaudio/best[height<=480]' -o $1 $2
+r=400
+if [ "$res" != "" ]
+then
+	r=$res
+fi
 echo $d
 if [ "$d" != "0" ]; then
-	youtube-dl --no-part -f 'bestvideo[width<=740]+bestaudio/best[width<=740]' -o $1 $2
+#	youtube-dl --no-part -f 'bestvideo[width<=740]+bestaudio/best[width<=740]' -o $1 $2
+youtube-dl  -f "(mp4)[height<=$r]" -o $1.mp4 $2
 fi
 
 if [ "a$3" != "a-t" ]; then
