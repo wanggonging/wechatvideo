@@ -8,7 +8,7 @@ fi
 echo $d
 if [ "$d" != "0" ]; then
 #	youtube-dl --no-part -f 'bestvideo[width<=740]+bestaudio/best[width<=740]' -o $1 $2
-youtube-dl  -f "(mp4)[height<=$r]" -o $1.mp4 $2
+youtube-dl  -f "(mp4)[height<=$r]" -o cache/$1.mp4 $2
 fi
 
 if [ "a$3" != "a-t" ]; then
@@ -22,7 +22,7 @@ if [ "$debug" == "1" ]; then
 	prefix="bash -x"
 fi
 
-if [ -f $1.mp4 ]; then
+if [ -f cache/$1.mp4 ]; then
  $prefix ./t $1.mp4 $quiet
  exit
 fi
