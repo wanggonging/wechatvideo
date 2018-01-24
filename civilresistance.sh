@@ -3,6 +3,7 @@
 # 街头革命
 #
 
+c=36 fps=10 speed=1 n=1 ss=0 S1="" ./d tedxpopovic https://www.youtube.com/watch?v=Z3Cd-oEvEog
 fps=25 speed=1.3 n=1 ss=0 S1="{\\\\fs(49)}《公民抵抗初探》 普通民众如何采取 公民抵抗 打败强大的统治者? 公民抵抗如何开始? 怎样组织抗议活动?" ./d cv h5ttps://www.youtube.com/watch?v=ficH9nLPZiE
 fps=10 speed=1 n=2 ss=0 S1="1986纪录片\\\\N菲律宾二月革命 英文中字" ./d prev1986 https://www.youtube.com/watch?v=BWQHSJJ8OyE
 fps=10 speed=1 n=1 ss=0 S1="2002纪录片 《推翻独裁者》-1 中文版" ./d howto-1 https://www.youtube.com/watch?v=P4H5Vr1rWbM

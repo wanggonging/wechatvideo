@@ -29,4 +29,5 @@ fps=10 speed=1 n=1 ss=0 S1="一平说变局20 大数据 人工智能 与天网�
 fps=10 speed=1 n=1 ss=0 S1="一平说变局21 也谈习近平集权 解说套路 预测走向 最后还要给他点赞加油! 2018.01.09" ./d lyp0109 https://www.youtube.com/watch?v=5dknCzna250
 fps=10 speed=1 n=1 ss=0 S1="一平说变局22 大危机即将来临 贫民、中产和富豪 如何保命保财？2018.01.11" ./d lyp0111 https://www.youtube.com/watch?v=vGOgAh4_LwU
 fps=10 speed=1 n=1 ss=0 S1="一平说变局23 先违宪再修宪 成立国监委之后 一场升级版文革 将要正式开演！ 2018.01.15" ./d lyp23 https://www.youtube.com/watch?v=esTg3t-uCI4
-fps=10 speed=1 n=1 ss=0 S1="一平说变局24 习近平危局 军中肃反扩大化 将校政变成必然" ./d yiping24 https://www.youtube.com/watch?v=YxTq_ps_vxU
+fps=10 speed=1 n=1 ss=0 S1="一平说变局24 习近平危局 军中肃反扩大化 将校政变成必然" ./d lyp24 https://www.youtube.com/watch?v=YxTq_ps_vxU
+fps=10 speed=1 n=1 ss=0 S1="一平说变局25 美国国防与贸易战略 急剧转向 中共好日子到头了 2018.01.22" ./d lyp25 https://www.youtube.com/watch?v=HgsOZ6ut9QA

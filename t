@@ -1,13 +1,13 @@
 #!/bin/bash
 filename=$1
-if [ -f $1 ]
+if [ -f cache/$1 ]
 then
 	echo "File name is $filename."
 else
 	echo "File $filename does not exist!"
 	exit 1
 fi
-input=$filename
+input=cache/$filename
 filename_withoutext=${filename%.*}
 
 datefull=`TZ="UTC-8" date "+%y%m%d%H%M%S"`
@@ -63,7 +63,7 @@ fi
 if [ "$ss" != "0" ]
 then
 	new=${filename_withoutext}_ss.mkv
-	ffmpeg -y -i $input -vcodec copy -acodec copy -ss $ss $new
+	ffmpeg -y -i $input -crf $crf -r $fps  -acodec copy -ss $ss $new
 	input=$new
 fi
 
