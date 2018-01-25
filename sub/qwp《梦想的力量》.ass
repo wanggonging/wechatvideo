@@ -20,35 +20,35 @@ Video Position: 4765
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Default,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
+Style: Default,Arial,25,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.06,0:00:08.50,Default,,0,0,0,,...马丁路德金在华盛顿特区林肯纪念堂的著名演讲 《我有一个梦想》\N...the famous speech I have a Dream at the Lincoln Memorior, Washington D.C. 
-Dialogue: 0,0:00:10.36,0:00:19.70,Default,,0,0,0,,今晚在纽约时代广场 一个来自中国大陆的年轻人\NTonight here Time Square New York City a young man coming from China
-Dialogue: 0,0:00:19.70,0:00:24.86,Default,,0,0,0,,将做一个新的演讲 《梦想的力量》\Nwill deliver a new speech The Power of Dream
-Dialogue: 0,0:00:24.86,0:00:31.04,Default,,0,0,0,,当美国人生活在自由的阳光下时\NWhile the American people are enjoying the shine of liberty 
-Dialogue: 0,0:00:31.04,0:00:38.92,Default,,0,0,0,,千百万的中国大陆人民没有人权\NIn mainland China millions of Chinese have no human rights
+Dialogue: 0,0:00:00.06,0:00:08.50,Default,,0,0,0,,50年前著名民权运动领袖马丁路德金先生 在华盛顿特区林肯纪念堂前发表了著名演讲 《我有一个梦想》\N...the famous speech I have a Dream at the Lincoln Memorior, Washington D.C. 
+Dialogue: 0,0:00:10.36,0:00:19.70,Default,,0,0,0,,今晚在这里 纽约时代广场 一个来自中国大陆的年轻人\NTonight here Time Square New York City a young man coming from China
+Dialogue: 0,0:00:19.70,0:00:24.86,Default,,0,0,0,,将发表演讲《梦想的力量》\Nwill deliver a new speech The Power of Dream
+Dialogue: 0,0:00:24.86,0:00:31.04,Default,,0,0,0,,当人类文明的自由之光普照美国 普照全世界的时候\NWhile the American people are enjoying the shine of liberty 
+Dialogue: 0,0:00:31.04,0:00:38.92,Default,,0,0,0,,在古老的东方中国大陆依然是落后野蛮的独裁统治\NIn mainland China millions of Chinese have no human rights
 Dialogue: 0,0:00:40.90,0:00:53.40,Default,,0,0,0,,很难想象 今时今日 中国大陆的13亿人民仍没有言论自由\NIt's hard to imagine that at this moment 1.3 billion Chinese citizens have no freedom of speech
 Dialogue: 0,0:00:53.40,0:00:57.54,Default,,0,0,0,,我们不能批评政府\NWe can't say anything about the government
-Dialogue: 0,0:00:57.54,0:01:02.18,Default,,0,0,0,,我们卖命工作 缴纳高昂税赋\NWe have to work hard and pay high taxes
+Dialogue: 0,0:00:57.54,0:01:02.18,Default,,0,0,0,,我们只允许辛苦工作 不停纳税\NWe have to work hard and pay high taxes
 Dialogue: 0,0:01:02.18,0:01:05.68,Default,,0,0,0,,但我们从来没有见过选票\NBut we have never a ballot
-Dialogue: 0,0:01:05.68,0:01:14.64,Default,,0,0,0,,我们是人 但我们没有人权\NWe are humanbeing but we have no human rights
+Dialogue: 0,0:01:05.68,0:01:14.64,Default,,0,0,0,,我们是人 但我们没有人权\NWe are human beings but we have no human rights
 Dialogue: 0,0:01:14.64,0:01:18.70,Default,,0,0,0,,中国是警察国家\NChina is a police country
 Dialogue: 0,0:01:18.70,0:01:22.20,Default,,0,0,0,,现在我们需要改变\NNow we need a change
 Dialogue: 0,0:01:22.20,0:01:25.76,Default,,0,0,0,,我们需要抗争\NWe need to fight
 Dialogue: 0,0:01:25.76,0:01:30.84,Default,,0,0,0,,我们需要行动\NWe need action
 Dialogue: 0,0:01:30.84,0:01:37.76,Default,,0,0,0,,今晚我们在这里\NTonight we stand here
 Dialogue: 0,0:01:37.76,0:01:43.14,Default,,0,0,0,,为自由呐喊 因为我们有一个梦想\Nshouting for freedom because we have a dream
-Dialogue: 0,0:01:43.14,0:01:50.42,Default,,0,0,0,,我相信梦想就是力量\Nand we belive that dream is power
-Dialogue: 0,0:01:50.42,0:02:00.36,Default,,0,0,0,,1989年 当中国政府在北京杀害数千名学生的时候\NWhen the Chinese government killed thousands of students in Beijing 1989
-Dialogue: 0,0:02:00.36,0:02:03.64,Default,,0,0,0,,他们就失去了人民的信任\Nthey have lost our trust
+Dialogue: 0,0:01:43.14,0:01:50.42,Default,,0,0,0,,我们相信梦想就是力量\Nand we belive that dream is power
+Dialogue: 0,0:01:50.42,0:02:00.36,Default,,0,0,0,,当1989年中共政府用机枪和坦克屠杀市民和学生的时候\NWhen the Chinese government killed thousands of students in Beijing 1989
+Dialogue: 0,0:02:00.36,0:02:03.64,Default,,0,0,0,,这个政权的合法性已经不复存在\Nthey have lost our trust
 Dialogue: 0,0:02:03.64,0:02:07.14,Default,,0,0,0,,中国政府是骗子\NThe Chinese government is a liar
 Dialogue: 0,0:02:07.14,0:02:10.18,Default,,0,0,0,,中国政府是屠夫\NThe Chinese government is a killer
 Dialogue: 0,0:02:10.18,0:02:14.66,Default,,0,0,0,,中国政府是杀人犯\NThe Chinese government is a murderer
 Dialogue: 0,0:02:14.66,0:02:27.26,Default,,0,0,0,,所以 我们需要建立一个民有民治民享的新政府\NSo we need to build a new government of the people by the people and for the people
-Dialogue: 0,0:02:27.26,0:02:35.38,Default,,0,0,0,,在每个人的心中都有一个梦想\NIn everyone's heart there is a dream 
-Dialogue: 0,0:02:35.38,0:02:46.20,Default,,0,0,0,,一个有一天所有人在我们可爱的祖国 中国 享受自由生活的梦想\NThe dream that one day we can enjoy our freedom of life in our beloved country China
+Dialogue: 0,0:02:27.26,0:02:35.38,Default,,0,0,0,,在每个人的心中都有一个梦想\NIn everyone's heart there is a dream
+Dialogue: 0,0:02:35.38,0:02:46.20,Default,,0,0,0,,一个有一天所有人在我们可爱的祖国 中国 享受自由生活的梦想\Nthe dream that one day we can enjoy our freedom of life in our beloved country China
 Dialogue: 0,0:02:46.20,0:02:47.82,Default,,0,0,0,,我们爱祖国\NWe love the country
 Dialogue: 0,0:02:47.82,0:02:49.54,Default,,0,0,0,,我们爱中华\NWe love the nation
 Dialogue: 0,0:02:49.54,0:02:52.00,Default,,0,0,0,,我们爱神州大地\NWe love the land

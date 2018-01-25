@@ -11,6 +11,8 @@ input=cache/$filename
 filename_withoutext=${filename%.*}
 
 datefull=`TZ="UTC-8" date "+%y%m%d%H%M%S"`
+datesimple=`TZ="UTC-8" date "+%Y.%m.%d"`
+logo="$datesimple"
 DURATION_HMS=$(ffmpeg -i "$input" 2>&1 | grep Duration | cut -f 4 -d ' ')
 DURATION_H=$(echo "$DURATION_HMS" | cut -d ':' -f 1)
 DURATION_M=$(echo "$DURATION_HMS" | cut -d ':' -f 2)
@@ -51,8 +53,8 @@ if [ "$volume" = "" ]; then
 fi
 
 #tech="ffmpeg 加速${speed} 音40k 视${v}k ${fps}fps $datefull"
-tech="$datefull"
-
+#tech="$datefull"
+tech="$logo"
 if [ -f sub/${filename_withoutext}.ass ]
 then
 	new=${filename_withoutext}_sub.mkv
