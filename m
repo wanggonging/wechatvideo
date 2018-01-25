@@ -4,6 +4,17 @@
 #fps=10 speed=1 n=1 ss=0 S1="" ./d
 #fps=10 speed=1 n=1 ss=0 S1="" ./d
 #fps=10 speed=1 n=1 ss=0 S1="" ./d
+#c=30 fps=10 speed=1 n=1 ss=0 S1="华涌在广州 2018年1月24日-25日" ./d hy012425 https://www.youtube.com/watch?v=YV1AeEFc488
+c=30 fps=10 speed=1 n=1 ss=0 S1="秦伟平激情演讲\\\\N《梦想的力量》\\\N纽约时代广场\\\\N2013.8.31 " ./d qwp《梦想的力量》 https://www.youtube.com/watch?v=-TIY5BZb734
+fps=10 speed=1 n=1 ss=0 S1="秦伟平先生 在纽约时代广场 发表2014新年贺词演说 2014.1.1" ./d qwp2014新年贺词 https://www.youtube.com/watch?v=WMsrM-iuqno
+
+
+#fps=10 speed=1 n=2 ss=0 S1="华涌 我为什么要提倡讲真话？ 《明镜专访》 2018.01.23" ./d mj0123 https://www.youtube.com/watch?v=E6Y3AYN3bBM
+#fps=10 speed=1 n=1 ss=20 S1="时事大家谈 完整版 隋牧青 桂敏海 洪振快 秦伟平 2018年1月24日" ./d voa0124 https://www.youtube.com/watch?v=EVLq8xXdTyU
+#fps=10 speed=1 n=1 ss=0 S1="习王是中共血盆大口 中的左右犬牙 狮子老虎打架 你一个猪去拍什么手？ 《建民论推墙142》 2018.01.24" ./d wjm0124 https://www.youtube.com/watch?v=koIb2I9pVOU
+#fps=10 speed=1 n=1 ss=0 S1="2017.11.21 专访秦伟平 中国危机大逃亡 千钧一发还是危言耸听？" ./d qwp20171121专访秦伟平 https://www.youtube.com/watch?v=WchIHAXjL7M
+#fps=10 speed=1 n=1 ss=0 S1="2017.11.27 平论Live  中国危机大逃亡之 低端人口" ./d qwp20171127低端人口 https://www.youtube.com/watch?v=-Ptsq0p3HPk
+#fps=10 speed=1 n=1 ss=0 S1="2018.1.15 马丁路德金纪念日 谈谈“我有一个梦想” 和非暴力抗争" ./d qwp20180115非暴力抗争 https://www.youtube.com/watch?v=nMkG6N1LWp0
 
 
 #
