@@ -3,6 +3,8 @@
 # Save start
 #
 
+#c=30 fps=10 speed=1 ss=0 n=1 S1="2017-9-11 明镜专访 环球实报发言人 群主被抓 环球实报继续正常运转" ./d hqsb20170911 https://www.youtube.com/watch?v=hiiYUItn1SM
+#fps=10 speed=1 ss=0 n=2 S1="2016.9.14 刘鹏飞微信讲座录音 英国宪政博弈史" ./d lpf英国宪政博弈史 https://www.youtube.com/watch?v=wv8AouuEMUY
 #fps=10 speed=1 n=1 ss=1:30 S1="2017.4.23 盛雪微信讲座 权贵霸凌 与救救孩子" ./d sx20170423 https://www.youtube.com/watch?v=DdNZh-PvNQM
 #fps=10 speed=1 n=2 ss=0 S1="2018纪录片 《1989的女孩》 2018.1.8" ./d 1989girls https://www.youtube.com/watch?v=0CWbcYz1VHA
 #fps=10 speed=1 n=1 ss=0 S1="{\\\\fs(45)}20141127 杨宪宏采访秦永敏\\\\N\\\\N{\\\\fs(30)}2015年1月9日秦永敏被武汉当局 以“接受外媒采访及写文章过多” 为由用空白拘留证拘留 至今三年未判" ./d qym20141127 https://www.youtube.com/watch?v=L-30t3gYQoo
@@ -21,3 +23,5 @@
 #c=30 fps=10 speed=1 n=1 ss=0 S1="2008年10月 刘晓波被捕前 接受香港电台访问 我的坚持" ./d lxb2008 https://www.youtube.com/watch?v=SI8X1cYCuk4
 #fps=10 speed=1 n=1 ss=0 S1="王炳章博士 我们的民族 缺少灵魂 这是一场 没有灵魂的革命" ./d wbz https://www.youtube.com/watch?v=-pFLVL-eRIA
 
+#c=30 fps=10 speed=1 n=1 ss=0 S1="秦伟平激情演讲\\\\N《梦想的力量》\\\N纽约时代广场\\\\N2013.8.31 " ./d qwp《梦想的力量》 https://www.youtube.com/watch?v=-TIY5BZb734
+#fps=10 speed=1 n=1 ss=0 S1="秦伟平先生 在纽约时代广场 发表2014新年贺词演说 2014.1.1" ./d qwp2014新年贺词 https://www.youtube.com/watch?v=WMsrM-iuqno

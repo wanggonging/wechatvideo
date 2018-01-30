@@ -1,4 +1,12 @@
 
+#fps=10 speed=1 ss=26 n=1 S1="2018.1.25 介绍反迫害人权基金 再谈募捐 对反对派运动的重要性" ./d tbq0125 https://www.youtube.com/watch?v=S4WmaYdpkSQ
+#c=30 fps=10 speed=1 ss=0 n=1 S1="唐柏桥在2016年 旧金山法轮功集会上 的演讲视频" ./d tbq2016flg https://www.youtube.com/watch?v=IlTOdQzDrrI
+#c=35 fps=10 speed=1 ss=0 n=1 S1="刘淇昆 在温哥华法轮功集会上 的讲话  2013.7.13" ./d lqk在温哥华法轮功集会上 https://www.youtube.com/watch?v=nFkvN0HqIK4
+#c=30 fps=10 speed=1 ss=0 n=1 S1="唐柏桥\\\\N谈香港雨伞革命\\\\N2014\\\\N旧金山图书馆" ./d tbq谈香港雨伞革命 https://www.youtube.com/watch?v=M4n2ymJruns
+
+c=30 fps=10 speed=1 ss=0 n=1 S1="埃及革命的发动者 古奈姆演讲 人民的力量远远胜过 执掌权力的人 2011.3" ./d egypt-tedx https://www.youtube.com/watch?v=SWvJxasiSZ8
+c=35 fps=10 speed=1 ss=0 n=4 S1="纪录片\\\\N埃及\\\\N被中断的革命？" ./d egypt被中断的革命 https://www.youtube.com/watch?v=3lxt7LdDZIY
+
 #
 # 街头革命
 #
