@@ -24,4 +24,5 @@ fps=10 speed=1 n=1 ss=0 S1="朱万利09 谈蚁力神 集资诈骗案 2017.11.12"
 #fps=10 speed=1 n=1 ss=0 S1="朱万利19 为什么江胡温 被邓小平 选定为接班人 2018.01.14" ./d zwl19 https://www.youtube.com/watch?v=kxV-lHPA7aM
 #fps=10 speed=1 n=1 ss=0 S1="朱万利20 逃港潮 历史大悲剧 人民用脚投票\\\\N2018.01.21" ./d zwl20 https://www.youtube.com/watch?v=B34FJouxCk4
 #fps=10 speed=1 ss=0 n=1 S1="朱万利21 辽宁李峰案 为何还没有结果?  中共不敢公布李峰 的五大罪恶 2018.01.24" ./d zwl21 https://www.youtube.com/watch?v=vuQWtOHDaN0
-#c=30 fps=10 speed=1 ss=0 n=1 S1="朱万利22 呼唤王全璋律师 回家过年 2018.01.28" ./d zwl22-0128 https://www.youtube.com/watch?v=3YbDk_HWA3M
+#c=30 fps=10 speed=1 ss=0 n=1 S1="朱万利 呼唤王全璋律师 回家过年 2018.01.28" ./d zwl22-0128 https://www.youtube.com/watch?v=3YbDk_HWA3M
+#fps=10 speed=1 ss=0 n=1 S1="朱万利22 和于海雷 讲述丹东马晓红案 最新消息 2018.02.03" ./d zwl22马晓红案 https://www.youtube.com/watch?v=vZbOSuSJ6ic

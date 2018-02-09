@@ -15,3 +15,4 @@
 #c=30 fps=10 speed=1 n=1 ss=0 S1="华涌在广州 2018年1月24日-25日" ./d hy012425 https://www.youtube.com/watch?v=YV1AeEFc488
 #fps=10 speed=1 n=2 ss=0 S1="华涌 我为什么要提倡讲真话？ 《明镜专访》 2018.01.23" ./d mj0123 https://www.youtube.com/watch?v=E6Y3AYN3bBM
 #c=35 fps=10 speed=1 ss=0 n=1 S1="华涌： 为百姓留下一位 敢说真话的律师 关注隋牧青律师 2018.1.29" ./d hy0129 https://www.youtube.com/watch?v=bvFb1k-V93g
+#fps=10 speed=1 ss=0 n=1 S1="2018-1-30 华涌平安回家 继续关注隋牧青律师 及访谈花絮" ./d hy0130继续关注隋牧青律师 https://www.youtube.com/watch?v=60djJQ2aq4o
