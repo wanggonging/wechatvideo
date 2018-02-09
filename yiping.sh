@@ -34,5 +34,5 @@ fps=10 speed=1 n=1 ss=0 S1="一平说变局25 美国国防与贸易战略 急剧
 fps=10 speed=1 ss=0 n=1 S1="一平说变局26 升级版文革正式开始 扫黑除恶 大批基层干部和 民营企业家将遭清洗 2018.1.25" ./d lyp26 https://www.youtube.com/watch?v=FCblb1KqBOI
 fps=10 speed=1 ss=24 n=1 S1="2018.1.26 神秘人士原乡居士 与郭宝胜 李一平三人 对谈当下中国形势" ./d lypgbs0126 https://www.youtube.com/watch?v=jyYXaKn0-cU
 fps=10 speed=1 ss=0 n=1 S1="“反动会道门”的源流 和在未来大变局中 的角色（一） 2018.1.29" ./d yp0129wenmi1 https://www.youtube.com/watch?v=VAAgHUqCGZ0
-
-
+#fps=10 speed=1 ss=0 n=1 S1="“扫黑除恶” 吹响新文革的号角 酷吏虐待狂将肆虐中国 一平论政02 2018.2.2" ./d lyp02酷吏 https://www.youtube.com/watch?v=s_qUFnyvgCA
+#fps=10 speed=1 ss=0 n=1 S1="2018.2.5 一平论政03 2018年一带一路 将成为一条死路" ./d lyp一平论政03 https://www.youtube.com/watch?v=dccEu7kPnc4

@@ -9,7 +9,6 @@ else
 fi
 input=cache/$filename
 filename_withoutext=${filename%.*}
-
 datefull=`TZ="UTC-8" date "+%y%m%d%H%M%S"`
 datesimple=`TZ="UTC-8" date "+%Y.%m.%d"`
 logo="$datesimple"
@@ -30,6 +29,12 @@ fi
 if [ "$vv" != "" ]
 then
 	v=$vv
+fi
+
+template=template.asst
+if [ "$temp" != "" ]
+then
+	template=$temp
 fi
 
 ##
@@ -65,7 +70,7 @@ fi
 if [ "$ss" != "0" ]
 then
 	new=${filename_withoutext}_ss.mkv
-	ffmpeg -y -i $input -crf $crf -r $fps  -acodec copy -ss $ss $new
+	ffmpeg -y -i $input -crf $crf -r $fps -vf "scale='min(480,iw):-1'" -acodec copy -ss $ss $new
 	input=$new
 fi
 
@@ -95,7 +100,7 @@ then
 			break
 		fi
 
-		sed -e "s/AAAAAAA/$S1\\\\N$i\/$n/g; s/CCCCCCC/$tech/g" template.ass > $filename_withoutext.ass
+		sed -e "s/AAAAAAA/$S1\\\\N$i\/$n/g; s/CCCCCCC/$tech/g" $template > $filename_withoutext.ass
 		ffmpeg -y \
 		-i ${filename_withoutext}_${j}.mp4 \
 		-vf ass=$filename_withoutext.ass \
@@ -106,12 +111,12 @@ then
 		rm -f ${filename_withoutext}_${j}.mp4
 	done
 else
-	sed -e "s/AAAAAAA/$S1/g; s/CCCCCCC/$tech/g" template.ass > $filename_withoutext.ass
+	sed -e "s/AAAAAAA/$S1/g; s/CCCCCCC/$tech/g" $template > $filename_withoutext.ass
 	ffmpeg \
 	-i $input -y \
       	-strict -2 $audio \
      	-crf $crf -r ${fps} \
-       	-filter_complex "[0:v]setpts=PTS/${speed}[v1];[v1]ass=$filename_withoutext.ass[v];[0:a]volume=$volume[af];[af]atempo=${speed}[a]" \
+       	-filter_complex "[0:v]setpts=PTS/${speed}[v1];[v1]ass=$filename_withoutext.ass[v];[0:a]volume=$volume[af];[af]atempo=${speed}[ag];[ag]pan=mono|c0=c1[a]" \
        	-map "[v]" -map "[a]" \
     	/home/public_share/${datefull}_${filename_withoutext}_${speed}_$a$v${fps}.mp4
 fi

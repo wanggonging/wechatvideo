@@ -1,3 +1,4 @@
+#fps=10 speed=1 ss=0 n=1 S1="《澳洲之声》 人物频道 回国见闻 澳洲公民夏益谈 回国“被喝茶”经历！ 2018.2.4" ./d aus0204夏益谈回国“被喝茶”经历 https://www.youtube.com/watch?v=0mHZSWpo_V4
 
 #fps=10 speed=1 ss=50 n=2 S1="2018.1.31 在牲口国家的 悲怆抗争 专访坐牢17年的 铁血民主斗士张林" ./d gbszhanglin0131 https://www.youtube.com/watch?v=ck8qmGAMNF4
 #fps=10 speed=1 n=1 ss=0 S1="{\\\\fs(45)}20141127 杨宪宏采访秦永敏\\\\N\\\\N{\\\\fs(30)}2015年1月9日秦永敏被武汉当局 以“接受外媒采访及写文章过多” 为由用空白拘留证拘留 至今三年未判" ./d qym20141127 https://www.youtube.com/watch?v=L-30t3gYQoo
@@ -16,3 +17,6 @@
 #fps=10 speed=1 n=1 ss=0 S1="2017纪录片\\\\N《709律师》" ./d 709 https://www.youtube.com/watch?v=fcIoacGDW4A
 #fps=10 speed=1 n=1 ss=0 S1="石国鹏 谈陈寅恪与方舟子 谈民主与科学\\\\N2010" ./d sgp_ds https://www.youtube.com/watch?v=SAuTpqkJWFw
 #fps=10 speed=1 n=1 ss=0 S1="2011年1月25日 纪录片《平安乐清》 资料之九 屠夫访谈（一）" ./d wg01 https://www.youtube.com/watch?v=L6S7wEBWU6o
+#c=30 fps=10 speed=1 ss=0 n=1 S1="唐柏桥在2016年 旧金山法轮功集会上 的演讲视频" ./d tbq2016flg https://www.youtube.com/watch?v=IlTOdQzDrrI
+#c=35 fps=10 speed=1 ss=0 n=1 S1="刘淇昆 在温哥华法轮功集会上 的讲话  2013.7.13" ./d lqk在温哥华法轮功集会上 https://www.youtube.com/watch?v=nFkvN0HqIK4
+#c=30 fps=10 speed=1 ss=0 n=1 S1="唐柏桥\\\\N谈香港雨伞革命\\\\N2014\\\\N旧金山图书馆" ./d tbq谈香港雨伞革命 https://www.youtube.com/watch?v=M4n2ymJruns

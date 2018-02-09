@@ -4,104 +4,36 @@
 #fps=10 speed=1 n=1 ss=0 S1="" ./d
 #fps=10 speed=1 n=1 ss=0 S1="" ./d
 #fps=10 speed=1 n=1 ss=0 S1="" ./d
-#c=30 fps=10 speed=1 n=1 ss=0 S1="华涌在广州 2018年1月24日-25日" ./d hy012425 https://www.youtube.com/watch?v=YV1AeEFc488
-c=30 fps=10 speed=1 n=1 ss=0 S1="秦伟平激情演讲\\\\N《梦想的力量》\\\N纽约时代广场\\\\N2013.8.31 " ./d qwp《梦想的力量》 https://www.youtube.com/watch?v=-TIY5BZb734
-fps=10 speed=1 n=1 ss=0 S1="秦伟平先生 在纽约时代广场 发表2014新年贺词演说 2014.1.1" ./d qwp2014新年贺词 https://www.youtube.com/watch?v=WMsrM-iuqno
+#fps=10 speed=1 n=1 ss=0 S1="" ./d
+#fps=10 speed=1 ss=10 n=1 S1="美国观察\\\\N2018年2月9日" ./d voaus0209 https://www.youtube.com/watch?v=DdqV15eDr30
+#fps=10 speed=1 ss=0 n=1 S1="美国也要大阅兵！ 美国军、政两奇葩 头号栋梁要属他 20180208第310期" ./d wz0208 https://www.youtube.com/watch?v=b6zrbqcGL9U
+#fps=10 speed=1 ss=0 n=1 S1="温家宝的危险 尴尬处境 2月7日读报点评" ./d jwp0207 https://www.youtube.com/watch?v=itwTiG1gruA
+#fps=10 speed=1 ss=0 n=1 S1="2018.2.8 好人是怎么被变成坏人的" ./d wenmi0208 https://www.youtube.com/watch?v=mPo73EdsIok
+fps=10 speed=1 ss=0 n=1 S1="【书斋夜话】之68 衣食不足 何来礼节荣辱？ (修复语音2)\\\\N2018-2-8" ./d szyh02081 https://www.youtube.com/watch?v=L-rOLmdX0ko
+#aa='-codec:a libmp3lame -q:a 9 -ar 16000' fps=10 speed=1 ss="100 -t 20" n=1 S1="【书斋夜话】之68 衣食不足 何来礼节荣辱？ (修复语音) 2018-2-8" ./d szyh02081 https://www.youtube.com/watch?v=L-rOLmdX0ko
+#fps=10 speed=1 ss=0 n=1 S1="习近平清洗政协中 “不听话分子” 政协回到文革前？ 2018.2.8" ./d jsz0208 https://www.youtube.com/watch?v=uNMPYtOOhJI
+#fps=10 speed=1 ss=0 n=1 S1="2018.2.8 【翻墙必看】 未公布的十八届军队 落马中委会是谁？" ./d fqbk0208 https://www.youtube.com/watch?v=EW5WDreIwjU
+
+#fps=10 speed=1 ss=0 n=1 S1="李一平与郭宝胜 漫谈2018年 政局和爆料 2018.2.7" ./d yiping与宝胜漫谈2018年政局和爆料 https://www.youtube.com/watch?v=v8dUwtkbzaY
+#fps=10 speed=1 ss=0 n=1 S1="朱万利23 朝鲜39号室 都干了些啥？ 2018.02.07" ./d zwl23朝鲜39号室 https://www.youtube.com/watch?v=2QHa7dtMr6M
+#c=33 fps=10 speed=1 ss=35 n=3 S1="【传奇时代】\\\\N街对面的烛光\\\\N2017.12" ./d 传奇时代_街对面的烛光 http://www.ntdtv.com/xtr/gb/2017/12/27/a1356229.html
+#fps=10 volume=2 speed=1 ss=0 n=2 S1="2018.2.7\\\\N唐柏桥 漫谈反对派运动 谈G先生" ./d tbq0207 https://www.youtube.com/watch?v=NceLpOrizCo&feature=youtu.be
 
 
-#fps=10 speed=1 n=2 ss=0 S1="华涌 我为什么要提倡讲真话？ 《明镜专访》 2018.01.23" ./d mj0123 https://www.youtube.com/watch?v=E6Y3AYN3bBM
-#fps=10 speed=1 n=1 ss=20 S1="时事大家谈 完整版 隋牧青 桂敏海 洪振快 秦伟平 2018年1月24日" ./d voa0124 https://www.youtube.com/watch?v=EVLq8xXdTyU
-#fps=10 speed=1 n=1 ss=0 S1="习王是中共血盆大口 中的左右犬牙 狮子老虎打架 你一个猪去拍什么手？ 《建民论推墙142》 2018.01.24" ./d wjm0124 https://www.youtube.com/watch?v=koIb2I9pVOU
-#fps=10 speed=1 n=1 ss=0 S1="2017.11.21 专访秦伟平 中国危机大逃亡 千钧一发还是危言耸听？" ./d qwp20171121专访秦伟平 https://www.youtube.com/watch?v=WchIHAXjL7M
-#fps=10 speed=1 n=1 ss=0 S1="2017.11.27 平论Live  中国危机大逃亡之 低端人口" ./d qwp20171127低端人口 https://www.youtube.com/watch?v=-Ptsq0p3HPk
-#fps=10 speed=1 n=1 ss=0 S1="2018.1.15 马丁路德金纪念日 谈谈“我有一个梦想” 和非暴力抗争" ./d qwp20180115非暴力抗争 https://www.youtube.com/watch?v=nMkG6N1LWp0
+#c=35 fps=10 speed=1 ss=35 n=1 S1="传奇时代\\\\N永恒的电波（上） 2015.8.8" ./d 【传奇时代】永恒的电波（上） http://www.ntdtv.com/xtr/gb/2015/08/08/a1216148.html
+#c=35 fps=10 speed=1 ss=35 n=1 S1="传奇时代\\\\N永恒的电波（下） 2015.8.15" ./d 【传奇时代】永恒的电波（下） http://www.ntdtv.com/xtr/gb/2015/08/15/a1217647.html
+
+#fps=10 speed=1 ss=0 n=1 S1="川普天价罚款将至 中国反击 贸易战各自有什么 称手的家伙 20180207第309期" ./d wz0207 https://www.youtube.com/watch?v=GF6PwPa7pVk
+#fps=10 speed=1 ss=18 n=1 S1="美国观察\\\\N2018年2月8日" ./d voaus0208 https://www.youtube.com/watch?v=8g6IxqC_pJs
+#fps=10 speed=1 ss=0 n=1 S1="2018.2.7 【翻墙必看】\\\\N中共封堵VPN 却封不住翻墙软件 自由门无界" ./d fqbk02071 https://www.youtube.com/watch?v=mMG3IYzU3gs
+#fps=10 speed=1 ss=0 n=1 S1="2018.2.7\\\\N中共为什么要打击农村 非法宗教？" ./d wenmi0207 https://www.youtube.com/watch?v=kTZbzwBufpg
+#fps=10 speed=1 ss=18 n=1 S1="《华盛顿看天下》 2018 年2月7日" ./d washington0207 https://www.youtube.com/watch?v=broYd8IITVo
+#fps=10 speed=1 ss=0 n=1 S1="杜映华 同情农民被枪毙的 县委书记 《依娃-寻找大饥荒》 第15期 2018.2.7" ./d yiwa0207 https://www.youtube.com/watch?v=CdLy2nbfkf4
+#fps=10 speed=1 ss=20 n=1 S1="陈小平访谈李一平 《明镜编辑部》 第209期 2018.2.7" ./d mjbjb0207 https://www.youtube.com/watch?v=V9j8EfEH254
+#fps=10 speed=1 ss=0 n=1 S1="朝鲜面临最后时刻 金三胖巧使美人计 2018.02.07 No.129" ./d xm0207 https://www.youtube.com/watch?v=VKVMdWsxZpE
+#fps=10 speed=1 ss=0 n=1 S1="转基因食品探索之旅" ./d GMODocProject https://www.youtube.com/watch?v=jLXYIL8WTU0
 
 
-#
-#
-#
 
-#fps=10 speed=1 n=1 ss=15 S1="辛灏年 我是怎么 走进历史 走出谎言 的\\\\N2014.7.5" ./d xhn我是怎么走进历史走出谎言的 https://www.youtube.com/watch?v=6_IRLY1A0ZI
-#fps=10 speed=1 n=2 ss=0 S1="辛灏年 抗日战争中的 负面战场 2015.9.12" ./d xhn抗日战争负面战场 https://www.youtube.com/watch?v=y7gqyG9ZlfE
-#fps=10 speed=1 n=1 ss=36 S1="辛灏年台大演讲 「两个中国」与台湾命运 （上） 2015.9.6" ./d xhn两个中国1 https://www.youtube.com/watch?v=aD_m87w3wH8
-#fps=10 speed=1 n=1 ss=36 S1="辛灏年台大演讲 「两个中国」与台湾命运 （下） 2015.9.6" ./d xhn两个中国2 https://www.youtube.com/watch?v=NDPhkPe5TrU
-#fps=10 speed=1 n=1 ss=16 S1="辛灏年台大演讲 「两个中国」与台湾命运 （问答） 2015.9.6" ./d xhn两个中国3 https://www.youtube.com/watch?v=-ghACzTgc-E
-#fps=10 speed=1 n=1 ss=1:36 S1="辛灏年 谈九评共产党 2005.3.6" ./d xhn谈九评共产党  https://www.youtube.com/watch?v=fq-F1PKVDt8
-#fps=10 speed=1 n=1 ss=15 S1="辛灏年 马克思主义 究竟是什么 2005" ./d xhn马克思主义 https://www.youtube.com/watch?v=Ofnq7hctrmM
-#fps=10 speed=1 n=1 ss=15 S1="辛灏年 中国的出路 2005.6.4" ./d xhn中国的出路 https://www.youtube.com/watch?v=VH5tfjrxPqY
-#c=35 fps=10 speed=1 n=1 ss=15 S1="辛灏年 谈《谁是新中国》" ./d xhn谈《谁是新中国》 https://www.youtube.com/watch?v=jwrEjG0JmhA
-#fps=10 speed=1 n=1 ss=16 S1="辛灏年2005演讲 谁是抗日卫国 战争的中流砥柱" ./d xhn2005-1 https://www.youtube.com/watch?v=viJRRljCy-I
-#fps=10 speed=1 n=1 ss=16 S1="辛灏年2005演讲 抗战中 中共在做什么？" ./d xhn2005-2 https://www.youtube.com/watch?v=fYmIZByWeYo
-#c=34 fps=10 speed=1 n=1 ss=30 S1="辛灏年 答听众问 「八九」学运 能否再现中国 ？ 2003" ./d xhn1 https://www.youtube.com/watch?v=h_jS78kr6WM
-
-#
-# VPN
-#
-
-#res=720 c=30 fps=10 speed=1 n=1 ss=0 S1="2018.01.04 darrenliuwei.com 手把手教你搭建ssr翻墙 Linux Windows MacOS 手机" ./d darrenliu20180104 https://www.youtube.com/watch?v=_6lRX9S4knI
-#cc=30 fps=10 speed=1 n=1 ss=0 S1="2018.01.18 极力推荐一款 免费翻墙插件 让你畅游YouTube 看4K不卡顿 关键是不花钱" ./d fanqiang20180118 https://www.youtube.com/watch?v=LYFNU3cOXUc
-#res=720 fps=10 speed=1 n=1 ss=0 S1="蓝视星空第98期 推荐第二款 谷歌浏览器 科学上网插件 2018.1.22" ./d vpn0122 https://www.youtube.com/watch?v=0KK6Xw_S2Lg
-
-#
-# VPNASK
-#
-
-#c=30 fps=10 speed=1 n=1 ss=0 S1="2017.08.01 VPN翻墙程序在中国区 被苹果下架 申请一个美国区Apple ID 就可以恢复正常！" ./d vpn_appid https://www.youtube.com/watch?v=EXUbgANMgNE
-#c=30 fps=10 speed=1 n=1 ss=0 S1="2017.12.07 iPhone手机如何成功翻墙？ 搬瓦工VPS自建VPN Shadowsocks翻墙软件 快速稳定！" ./d vpn171207 https://www.youtube.com/watch?v=iyIHqNm6LAg
-#c=30 fps=10 speed=1 n=1 ss=0 S1="2017.10.20 Android如何找到免费 VPN成功翻墙访问 Google Youtube和Facebook" ./d vpn171020 https://www.youtube.com/watch?v=WGgTQHmbcGc
-#c=30 fps=10 speed=1 n=1 ss=0 S1="2017.10.17 iPhone手机该如何 成功翻墙访问Google Youtube和Facebook" ./d vpn171017 https://www.youtube.com/watch?v=Z37PoZ4ho8c
-#c=30 fps=10 speed=1 n=1 ss=0 S1="2017.09.14 iPhone手机用户该 如何成功翻墙访问 Google Youtube和Facebook" ./d vpn170914 https://www.youtube.com/watch?v=2Txysz7-06g
-#c=30 fps=10 speed=1 n=1 ss=0 S1="2017.08.28 免费翻墙工具Opera VPN推荐 免费访问Google Youtube和Facebook" ./d vpn0828 https://www.youtube.com/watch?v=CVko5OtopYw
-#c=30 fps=10 speed=1 n=1 ss=0 S1="2017.08.15 ExpressVPN在Android上 如何成功访问 Google Youtube和Facebook？" ./d vpn170815 https://www.youtube.com/watch?v=63Hka-eXAtc
-#c=30 fps=10 speed=1 n=1 ss=0 S1="2017.08.07 如何通过支付宝 购买NordVPN翻墙服务？" ./d vpn170807 https://www.youtube.com/watch?v=TD2l9V411BA
-
-#
-# 华涌
-#
-
-#fps=10 speed=1 n=1 ss=0 S1="华涌有话说（1） 2018-1-11 倡议“真话运动” 力挺山西临汾 真话义士常珈瑄" ./d hyszh01 https://www.youtube.com/watch?v=DXnVWloXQDY
-#fps=10 speed=1 n=1 ss=0 S1="华涌有话说（2） 2018-1-12" ./d hyszh02 https://www.youtube.com/watch?v=IoL_8HlXIXg
-#fps=10 speed=1 n=1 ss=0 S1="华涌有话说（3） 2018-1-13" ./d hyszh03 https://www.youtube.com/watch?v=c6dWdmVmKrI
-#fps=10 speed=1 n=1 ss=0 S1="华涌有话说（4） 2018-1-14 有彩蛋哦！" ./d hyszh04 https://www.youtube.com/watch?v=8fUAf1_y0gE
-#fps=10 speed=1 n=1 ss=0 S1="真话运动之 《华涌叨笔刀》5" ./d hy0117 https://www.youtube.com/watch?v=JMgJ9HIRu0o
-#fps=10 speed=1 n=1 ss=0 S1="真话运动之 《华涌叨笔刀》6 两个人的无酒饭醉" ./d hy01172 https://www.youtube.com/watch?v=iPbQPnVESMQ
-#fps=10 speed=1 n=1 ss=0 S1="真话运动之 《华涌叨笔刀》7 外滩咖啡馆\\\\N2018-1-18" ./d hy0118 https://www.youtube.com/watch?v=d55wmDQC_-I
-#c=36 fps=10 speed=1 n=1 ss=0 S1="华涌在海口 2018-1-22 巧遇艺术家艺工" ./d hy0122 https://www.youtube.com/watch?v=_0TY4n9P_6g
-#fps=10 speed=1 n=1 ss=0 S1="华涌决定再一次行动 关注农民工 为低端人口说真话！ 2018.01.23" ./d hy0123 https://www.youtube.com/watch?v=F81TKAwuskA
-
-
-#
-# GWG
-#
-
-#fps=11 speed=1 n=1 ss=0 S1="《郭文贵爆料》 宣传片 纸牌屋配乐版" ./d gwg08091 https://www.youtube.com/watch?v=zxyYgWXWOHU
-#fps=11 speed=1 n=1 ss=0 S1="郭文贵 主题曲 战无不胜" ./d gwg08261 https://www.youtube.com/watch?v=5Dmdz1tanrc
-#fps=11 speed=1 n=1 ss=0 S1="万里长城永不倒 郭文贵" ./d gwg10924 https://www.youtube.com/watch?v=xrzjAXqVrZ4
-#fps=10 speed=1 n=1 ss=0 S1="天上宫殿与地上蝼蚁" ./d gwg08262 https://www.youtube.com/watch?v=kYfFFZB70nU
-#fps=10 speed=1 n=1 ss=0 S1="《郭文贵爆料》 宣传片 蓝金黄计划" ./d gwg08122 https://www.youtube.com/watch?v=0fyo4n4WIng
-#fps=10 speed=1 n=1 ss=0 S1="献礼Miles爆料之 《再向虎山行》" ./d gwg08211 https://www.youtube.com/watch?v=PnTxPKJhqO0
-#fps=10 speed=1 n=1 ss=0 S1="文贵伐赵" ./d gwg0708 https://www.youtube.com/watch?v=jY-0WYaCTxQ
-
-#
-# Save start
-#
-
-#fps=10 speed=1 n=1 ss=1:30 S1="2017.4.23 盛雪微信讲座 权贵霸凌 与救救孩子" ./d sx20170423 https://www.youtube.com/watch?v=DdNZh-PvNQM
-#fps=10 speed=1 n=2 ss=0 S1="2018纪录片 《1989的女孩》 2018.1.8" ./d 1989girls https://www.youtube.com/watch?v=0CWbcYz1VHA
-#fps=10 speed=1 n=1 ss=0 S1="{\\\\fs(45)}20141127 杨宪宏采访秦永敏\\\\N\\\\N{\\\\fs(30)}2015年1月9日秦永敏被武汉当局 以“接受外媒采访及写文章过多” 为由用空白拘留证拘留 至今三年未判" ./d qym20141127 https://www.youtube.com/watch?v=L-30t3gYQoo
-#fps=10 speed=1 n=2 ss=0 S1="《澳洲之声》安红专访 中共退役军官胡伟（5） 伊朗革命 朝核文件 2018.01.07" ./d aus0107 https://www.youtube.com/watch?v=wtdRl0zkGqc
-#fps=15 speed=1 n=1 ss=0 S1="{\\\\fs(40)}布什总统就职演说 当你挺起胸膛争取自由时 美国会和你站在一起 2005.01.20" ./d bush2005 https://www.youtube.com/watch?v=Tt3aILpqKog
-#fps=10 speed=1.1 n=1 ss=0 S1="一个弱女子的呐喊\\\\N徐秦\\\\N2016.12.15" ./d xq2016 https://www.youtube.com/watch?v=HyXnG72zdX0
-#fps=15 speed=1 n=2 ss=0 S1="监狱里要做的事 有尊严的活着！ 吴建民分享坐牢经历 2017年6月15日" ./d wjm02 https://www.youtube.com/watch?v=2qiirb-pvw0
-#fps=10 speed=1 n=1 ss=0 S1="2017纪录片\\\\N《709律师》" ./d 709 https://www.youtube.com/watch?v=fcIoacGDW4A
-#fps=10 speed=1 n=1 ss=0 S1="20150615 杨宪宏采访 王全璋律师 谈拘留权问题" ./d rfi-王全璋律师 https://www.youtube.com/watch?v=d7D3q9J2JIc
-#fps=10 speed=1 n=1 ss=0 S1="《柔弱即强大》 王全璋律师的妻子李文足 讲述关于709的故事 2017.03.15" ./d lwz2017 https://www.youtube.com/watch?v=hxJ4iaD4zrQ
-#fps=10 speed=1 n=1 ss=0 S1="石国鹏 谈陈寅恪与方舟子 谈民主与科学\\\\N2010" ./d sgp_ds https://www.youtube.com/watch?v=SAuTpqkJWFw
-#fps=10 speed=1 n=1 ss=0 S1="2011年1月25日 纪录片《平安乐清》 资料之九 屠夫访谈（一）" ./d wg01 https://www.youtube.com/watch?v=L6S7wEBWU6o
-
-
-#fps=10 speed=1 n=6 ss=0 S1="2014纪录片 《超越恐惧》 中国良心高智晟律师 中文字幕" ./d gzs2014 https://www.youtube.com/watch?v=Eur72xe19gQ
-#c=30 fps=10 speed=1 n=1 ss=0 S1="2008年10月 刘晓波被捕前 接受香港电台访问 我的坚持" ./d lxb2008 https://www.youtube.com/watch?v=SI8X1cYCuk4
-#fps=10 speed=1 n=1 ss=0 S1="王炳章博士 我们的民族 缺少灵魂 这是一场 没有灵魂的革命" ./d wbz https://www.youtube.com/watch?v=-pFLVL-eRIA
 
 

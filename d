@@ -6,13 +6,24 @@ then
 	r=$res
 fi
 echo $d
-if [ "$d" != "0" ]; then
-#	youtube-dl --no-part -f 'bestvideo[width<=740]+bestaudio/best[width<=740]' -o $1 $2
-youtube-dl  -f "(mp4)[height<=$r]" -o cache/$1.mp4 $2
+
+special=0
+if [[ $2 = *guo.media* ]]; then
+	echo Guo Media detected ....
+	youtube-dl  -o cache/$1.mp4 $2
+	special=1
+fi
+if [[ $2 = *ntdtv* ]]; then
+	echo NTDTV detected ....
+	youtube-dl  -o cache/$1.mp4 $2
+	special=1
 fi
 
-if [ "a$3" != "a-t" ]; then
-echo here #exit
+if [ "$special" == "0" ]; then
+	if [ "$d" != "0" ]; then
+		#	youtube-dl --no-part -f 'bestvideo[width<=740]+bestaudio/best[width<=740]' -o $1 $2
+		youtube-dl  -f "(mp4)[height<=$r]" -o cache/$1.mp4 $2
+	fi
 fi
 
 quiet="-q"
