@@ -26,3 +26,5 @@ fps=10 speed=1 n=1 ss=0 S1="朱万利09 谈蚁力神 集资诈骗案 2017.11.12"
 #fps=10 speed=1 ss=0 n=1 S1="朱万利21 辽宁李峰案 为何还没有结果?  中共不敢公布李峰 的五大罪恶 2018.01.24" ./d zwl21 https://www.youtube.com/watch?v=vuQWtOHDaN0
 #c=30 fps=10 speed=1 ss=0 n=1 S1="朱万利 呼唤王全璋律师 回家过年 2018.01.28" ./d zwl22-0128 https://www.youtube.com/watch?v=3YbDk_HWA3M
 #fps=10 speed=1 ss=0 n=1 S1="朱万利22 和于海雷 讲述丹东马晓红案 最新消息 2018.02.03" ./d zwl22马晓红案 https://www.youtube.com/watch?v=vZbOSuSJ6ic
+#fps=10 speed=1 ss=0 n=1 S1="朱万利23 朝鲜39号室 都干了些啥？ 2018.02.07" ./d zwl23朝鲜39号室 https://www.youtube.com/watch?v=2QHa7dtMr6M
+#fps=10 speed=1 n=1 ss=0 S1="朱万利24 温家宝空谈政改 真影帝 (2018.02.14)" ./d zwl24 https://www.youtube.com/watch?v=3wfVx6cRDq4

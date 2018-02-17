@@ -1,0 +1,1 @@
+rsync $1 -av ~/OneDrive/每日油兔/3.每日更新/ root@45.77.144.52:/var/www/html
