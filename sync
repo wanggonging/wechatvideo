@@ -1,1 +1,57 @@
-rsync $1 -av ~/OneDrive/每日油兔/3.每日更新/ root@45.77.144.52:/var/www/html
+#!/bin/bash
+function gen {
+ line=$1
+ echo $line
+ URL=`echo $line | cut -d '"' -f 1`
+ #echo $URL
+ filename=`echo $line | cut -d '"' -f 2`
+ filename_withoutext=${filename%.*}
+ m=$target/O_$filename_withoutext.tmp
+ output=$target/O_$filename_withoutext.png
+ qrencode -m 2 -s 12 -o $m http://45.77.144.52/$URL
+ convert $m \
+        -resize 400x400 \
+	-gravity South \
+	-extent 400x500 \
+	-gravity NorthEast \
+        -font Noto-Sans-CJK-JP-Bold \
+	-fill blue -pointsize 30 -draw "text 30,0 '每'" \
+	-fill red -pointsize 30 -draw "text 2,0 '日'" \
+	-fill green -pointsize 30 -draw "text 30,30 '油'" \
+	-fill black -pointsize 30 -draw "text 2,30 '兔'" \
+	-gravity NorthWest \
+	-fill black -pointsize 22 -draw "text 10,10 '$filename_withoutext'" \
+        -font Noto-Sans-CJK-JP-Regular \
+	-fill red -pointsize 20 -draw "text 10,55 '扫码后如果遇到微信浏览器提示,'" \
+	-fill red -pointsize 20 -draw "text 10,80 '请点击底部的\"访问原网页\"。'" \
+	-gravity SouthWest \
+	-fill red -pointsize 14 -draw "text 3,1 '加微信号wanggonging进群 输浏览器地址45.77.144.52进网盘'" \
+	$output
+ rm -f $m
+}
+
+function sync {
+ rsync $1 -av --del ~/OneDrive/每日油兔/ root@45.77.144.52:/var/www/html
+}
+
+sync
+wget http://45.77.144.52 -O index.html
+target=~/OneDrive/每日油兔/本站资料二维码分享
+rm -f $target/O_*.png
+grep mp4 index.html |tail -n 10000| cut -b 80- | cut -d '/' -f 1 | sed 's/>//' | sed 's/<//' | while read line
+do
+  gen $line
+done
+gen 'index.html"《每日油兔网盘总目录》'
+sync
+rm -f /home/public_share/qr/O_*.png
+cp $target/* /home/public_share/qr
+
+#  Font: AR-PL-UKai-CN
+#  Font: AR-PL-UKai-HK
+#  Font: AR-PL-UKai-TW
+#  Font: AR-PL-UKai-TW-MBE
+#  Font: AR-PL-UMing-CN
+#  Font: AR-PL-UMing-HK
+#  Font: AR-PL-UMing-TW
+#  Font: AR-PL-UMing-TW-MBE
