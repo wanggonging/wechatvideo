@@ -1,3 +1,0 @@
-#!/bin/bash
-#ffmpeg -loop 1 -i $1 -i $2 -vcodec libx264 -strict -2 -shortest $2.mp4
-ffmpeg -y -framerate 1 -loop 1 -i $1 -i $2 -strict -2 -vf "scale=480:-2" -pix_fmt yuv420p -shortest $2.mp4
