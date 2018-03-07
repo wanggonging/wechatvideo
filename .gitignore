@@ -1,5 +1,5 @@
-*.mp4
-*.mkv
-*.webm
-*.pdf
-*.iso
+*tmp
+log/
+cache/
+host/
+access.log

@@ -1,0 +1,17 @@
+Quick start:
+
+* Have a relately good PC (less than 3 years old, with 1TB HD, SSD not required). Install latest Ubuntu, and clone this repo.
+* Buy Linux VPS with root access (search how people buy VPS to use shadowsocks) and choose latest Ubuntu (16 or 17) as the OS. This will roughly cost 5-10$/month per server. Start with one and once there are enough load you can add more.
+* Obtain your youtube API key for free at google developer console: https://www.youtube.com/watch?v=Im69kzhpR3I
+* Review and update global.sh with your server address and google api key
+* Generate your ssh key with ssh-keygen, and review server.sh
+  run this if you don't want to read server.sh:
+	cp ~/.ssh/id_rsa.pub ~/authorized_keys
+* provision your server(s) with: ./server.sh <server_ip>
+* ./yt2.sh boot	     ## install all dependencies, you need to supply password for sudo
+* ./yt2.sh one YP    ## try with one channel to see how things go
+* ./yt2.sh all       ## if everything works, you can let it do all channels in a loop
+* If the above works, you should be able to access your server IP address using
+any browser and see the video index page.
+
+
