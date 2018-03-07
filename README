@@ -1,10 +1,10 @@
 Quick start:
 
-* Have a relately good PC (less than 3 years old, with 1TB HD, SSD not required). Install latest Ubuntu, and clone this repo.
-* Buy Linux VPS with root access (search how people buy VPS to use shadowsocks) and choose latest Ubuntu (16 or 17) as the OS. This will roughly cost 5-10$/month per server. Start with one and once there are enough load you can add more.
-* Obtain your youtube API key for free at google developer console: https://www.youtube.com/watch?v=Im69kzhpR3I
-* Review and update global.sh with your server address and google api key
-* Generate your ssh key with ssh-keygen, and review server.sh
+* Have a relatively good PC (less than 3 years old, with 1TB HD and good amount of memory - otherwise encoding video might be a bit slow, SSD not required). Install latest Ubuntu, and clone this repo.
+* Buy Linux VPS with root access (search how mainland Chinese buy VPS to use shadowsocks for GFW bypass) and choose latest Ubuntu (16 or 17) as the OS for your VPS. This will roughly cost 5-10$/month per server. Start with one and once there are enough load you can add more.
+* Obtain your YouTube google API key for free at Google Developer Console: https://www.youtube.com/watch?v=Im69kzhpR3I
+* Review and update globals.sh with your server address and google api key
+* Generate your ssh key with ssh-keygen, and review/update server.sh
   run this if you don't want to read server.sh:
 	cp ~/.ssh/id_rsa.pub ~/authorized_keys
 * provision your server(s) with: ./server.sh <server_ip>
