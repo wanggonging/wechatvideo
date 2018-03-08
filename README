@@ -9,6 +9,7 @@ Quick start:
 	cp ~/.ssh/id_rsa.pub ~/authorized_keys
 * provision your server(s) with: ./server.sh <server_ip>
 * ./yt2.sh boot	     ## install all dependencies, you need to supply password for sudo
+* Install "pup" from https://github.com/ericchiang/pup and make sure the command pup is available in your PATH (haven't had time to automate this into ./yt2.sh boot.
 * ./yt2.sh one YP    ## try with one channel to see how things go
 * ./yt2.sh all       ## if everything works, you can let it do all channels in a loop
 * If the above works, you should be able to access your server IP address using
