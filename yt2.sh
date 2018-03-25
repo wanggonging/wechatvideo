@@ -65,13 +65,11 @@ function BuildRootIndex {
 		local img='<a href="http://'${g_ChannelHost[$cn]}/v/$key.mp4'"><img src="http://'${g_ChannelHost[$cn]}/q/$key.jpg'" /></a><br><p><hr>'
 		echo $table$img>>$index_html
 	done
-	echo '<i>服务器地址: <a href="http://45.77.144.52">45.77.144.52</a></i> | <a href="v1.html">旧版主页</a>'>>$index_html
 	echo '</body></html>'>>$index_html
 }
 
 function Sync {
 	BuildRootIndex $g_MainHost $g_MainHostRoot index.html
-	rsync -av $g_HostRoot/$g_Host1/ root@$g_Host1:/var/www/html
 	rsync -av $g_HostRoot/$g_MainHost/v root@$g_MainHost:/var/www/html
 	rsync -av $g_HostRoot/$g_MainHost/q root@$g_MainHost:/var/www/html
 	rsync -av $g_HostRoot/$g_MainHost/ root@$g_MainHost:/var/www/html
@@ -143,7 +141,11 @@ function Boot {
 	#
 	# All ubuntu packages required by ytdaily
 	#
-	sudo apt install -y ffmpeg cconv qrencode imagemagick jq goaccess
+	sudo apt install -y ffmpeg cconv qrencode imagemagick jq goaccess golang-go youtube-dl fonts-noto-cjk
+	go get github.com/ericchiang/pup || return 1
+	[[ -f ~/go/bin/pup ]] || return 1
+	sudo ln -t /bin ~/go/bin/pup
+	echo Boot completed.
 }
 
 if [[ ! -z $1 ]]

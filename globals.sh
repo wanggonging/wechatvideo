@@ -1,8 +1,8 @@
 # Obtain your youtube API key for free at google developer console: https://www.youtube.com/watch?v=Im69kzhpR3I
 # The following key is locked down to a private IP address and must be changed before use.
 g_GoogleApiKey=AIzaSyCyaIc6wpatDoeuPVsET_2_-yh5arU27NA
-g_MainHost=123.8.8.8.8	# Primary host for most channels, change to your host
-g_Host1=234.8.8.8	# Second host for some channels, change to your host
+g_MainHost=144.202.87.139	# Primary host for most channels, change to your host
+#g_Host1=.8.8.8	# Second host for some channels, change to your host
 
 g_YtdailyHome=.
 g_CacheRoot=$g_YtdailyHome/cache
@@ -39,4 +39,4 @@ function Selector_NT1 {
 
 g_ChannelId[YP]=UCLXvE-XNRIs7_GzEsEmMiRw
 g_ChannelName[YP]=李一平
-g_ChannelHost[YP]=$g_Host1
+g_ChannelHost[YP]=$g_MainHost

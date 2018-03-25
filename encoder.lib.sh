@@ -36,7 +36,7 @@ function EncodeVideo {
 		return 0
 	fi
 
-	[[ -f $target_file ]] && ffprobe -loglevel 16 $target_file && continue
+	[[ -f $target_file ]] && ffprobe -loglevel 16 $target_file && return 
 	echo Encoding $source_file to $target_file ...
 	local Title1=${Title:0:10}
 	local Title2=${Title:10:10}
